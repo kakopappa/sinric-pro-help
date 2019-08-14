@@ -89,7 +89,7 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 
 
-## Action list
+## CompleyActions and events list
 
 Following devices are using actions:
 
@@ -104,10 +104,10 @@ Following devices are using actions:
 |**Window AC Unit**|setPowerState, targetTemperature, setThermostatMode, setRangeValue, adjustRangeValue|setPowerState, targetTemperature, setThermostatMode, setRangeValue, currentTemperature|
 |**Fan**|setPowerState, setRangeValue|setPowerState, setRangeValue|
 |**Motion Sensor**|setPowerState|setPowerState, motion|
-|**Contact Sensor**|setPowerState|-- is en-dash, --- is em-dash|
-|**TV**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, selectInput, changeChannel, skipChannels|-- is en-dash, --- is em-dash|
-|**Smart Speaker**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, setBands, adjustBands, resetBands, setMode|-- is en-dash, --- is em-dash|
-|**Smart Doorlock**|setLockState|-- is en-dash, --- is em-dash 
+|**Contact Sensor**|setPowerState|setPowerState, setContactState|
+|**TV**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, selectInput, changeChannel, skipChannels|setPowerState, setVolume, setMute, mediaControl, selectInput, changeChannel, skipChannels|
+|**Smart Speaker**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, setBands, adjustBands, resetBands, setMode|setPowerState, setVolume, setMute, mediaControl, setBands, resetBands, setMode|
+|**Smart Doorlock**|setLockState|setLockState 
 
 ## KaTeX
 
@@ -147,6 +147,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODA1MjAyNywxNTc1MzIyNTU1LC0xNT
-cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
+eyJoaXN0b3J5IjpbLTE4NDcxMDY0MzAsMTU3NTMyMjU1NSwtMT
+U3MDAwNDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
 -->
