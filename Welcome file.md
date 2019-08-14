@@ -2,7 +2,8 @@
 
 Welcome to **Sinric Pro** device documentation.
 
-
+-   SDK application engine
+- 
 # Supported devices
 
  - [Smart Light Bulb](devices/Smart%20Light%20Bulb.md)
@@ -149,6 +150,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzAwMDQyMzIsMjA2NTU4NzkyOSwxMj
-UwODUxMzA1XX0=
+eyJoaXN0b3J5IjpbNTU1MjE4MzIsLTE1NzAwMDQyMzIsMjA2NT
+U4NzkyOSwxMjUwODUxMzA1XX0=
 -->
