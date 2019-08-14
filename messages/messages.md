@@ -46,8 +46,8 @@ An act of doing something in Sinric IOT platform will generate a **request** typ
 
 Upon receiving this response in the server, the server will update the interested parties about the status of the **request** they made.
 
-Let's imagine you want to turn on the device by pushing a button. in that case, you are interacting with a device physically or making a change to the device manually. So you should raise an **event**. 
-``` to let the 
+Let's imagine you want to turn on the device by pushing a button. in that case, you are interacting with a device physically or making a change to the device manually. So you should raise an **event** to let the server know about this change. 
+``` 
 {
  "payloadVersion": 1,
  "createdAt": 1561476448,
@@ -64,29 +64,7 @@ Let's imagine you want to turn on the device by pushing a button. in that case, 
 }
 ```
 
-## Complete actions and events list
-
-|                |Action |Event| 
-|----------------|------|---------|------|
-|**Smart Switch** | setPowerState | setPowerState 
-|**Smart Light Bulb**  |setPowerState, adjustBrightness, setBrightness, setColor, decreaseColorTemperature, increaseColorTemperature, setColorTemperature, setPowerLevel, adjustPowerLevel|setPowerState, setPowerLevel, setColor, setColorTemperature          
-|**Smart Switch with Dimmer**|setPowerState, setPowerLevel adjustPowerLevel|setPowerState, setPowerLevel|
-|**Doorbell**| setPowerState|DoorbellPress, setPowerState|
-|**Temperature Sensor** |setPowerState|setPowerState, currentTemperature|
-|**Thermostat**|setPowerState,targetTemperature, setThermostatMode|setPowerState, targetTemperature, setThermostatMode, currentTemperature|
-|**Window AC Unit**|setPowerState, targetTemperature, setThermostatMode, setRangeValue, adjustRangeValue|setPowerState, targetTemperature, setThermostatMode, setRangeValue, currentTemperature|
-|**Fan**|setPowerState, setRangeValue|setPowerState, setRangeValue|
-|**Motion Sensor**|setPowerState|setPowerState, motion|
-|**Contact Sensor**|setPowerState|setPowerState, setContactState|
-|**TV**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, selectInput, changeChannel, skipChannels|setPowerState, setVolume, setMute, mediaControl, selectInput, changeChannel, skipChannels|
-|**Smart Speaker**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, setBands, adjustBands, resetBands, setMode|setPowerState, setVolume, setMute, mediaControl, setBands, resetBands, setMode|
-|**Smart Doorlock**|setLockState|setLockState 
-
- 
-
-## UML diagrams
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
+## UML diagram
 
 ```mermaid
 sequenceDiagram
@@ -109,7 +87,39 @@ D -- 3. succes --> B
 B -- 4. Okey -->A
 ```
 
+How an eworks:
+
+```mermaid
+graph LR
+A[Alexa] -- 1. turn on tv --> B(Sinric)
+B -- 2.turn on tv --> D[IOT Module]
+D -- 3. succes --> B
+B -- 4. Okey -->A
+```
+
+## Complete actions and events list
+
+|                |Action |Event| 
+|----------------|------|---------|------|
+|**Smart Switch** | setPowerState | setPowerState 
+|**Smart Light Bulb**  |setPowerState, adjustBrightness, setBrightness, setColor, decreaseColorTemperature, increaseColorTemperature, setColorTemperature, setPowerLevel, adjustPowerLevel|setPowerState, setPowerLevel, setColor, setColorTemperature          
+|**Smart Switch with Dimmer**|setPowerState, setPowerLevel adjustPowerLevel|setPowerState, setPowerLevel|
+|**Doorbell**| setPowerState|DoorbellPress, setPowerState|
+|**Temperature Sensor** |setPowerState|setPowerState, currentTemperature|
+|**Thermostat**|setPowerState,targetTemperature, setThermostatMode|setPowerState, targetTemperature, setThermostatMode, currentTemperature|
+|**Window AC Unit**|setPowerState, targetTemperature, setThermostatMode, setRangeValue, adjustRangeValue|setPowerState, targetTemperature, setThermostatMode, setRangeValue, currentTemperature|
+|**Fan**|setPowerState, setRangeValue|setPowerState, setRangeValue|
+|**Motion Sensor**|setPowerState|setPowerState, motion|
+|**Contact Sensor**|setPowerState|setPowerState, setContactState|
+|**TV**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, selectInput, changeChannel, skipChannels|setPowerState, setVolume, setMute, mediaControl, selectInput, changeChannel, skipChannels|
+|**Smart Speaker**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, setBands, adjustBands, resetBands, setMode|setPowerState, setVolume, setMute, mediaControl, setBands, resetBands, setMode|
+|**Smart Doorlock**|setLockState|setLockState 
+
+ 
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzM3MzE5NSw2NDI0NTU0MzhdfQ==
+eyJoaXN0b3J5IjpbMjQ0MzExMTE2LDY0MjQ1NTQzOF19
 -->
