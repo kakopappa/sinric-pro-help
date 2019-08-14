@@ -99,15 +99,15 @@ Following devices are using actions:
 |**Smart Light Bulb**  |setPowerState, adjustBrightness, setBrightness, setColor, decreaseColorTemperature, increaseColorTemperature, setColorTemperature, setPowerLevel, adjustPowerLevel|setPowerState          
 |**Smart Switch with Dimmer**|setPowerState, setPowerLevel adjustPowerLevel|-- is en-dash, --- is em-dash|
 |**Doorbell**| setPowerState|-- is en-dash, --- is em-dash|
-|**Temperature Sensor** |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-|**Thermostat**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-|**Window AC Unit**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-|**Fan**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-|**Motion Sensor**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-|**Contact Sensor**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-|**TV**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-|**Smart Speaker**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-|**Smart Doorlock**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash 
+|**Temperature Sensor** |setPowerState|-- is en-dash, --- is em-dash|
+|**Thermostat**|setPowerState,targetTemperature, setThermostatMode|-- is en-dash, --- is em-dash|
+|**Window AC Unit**|setPowerState|-- is en-dash, --- is em-dash|
+|**Fan**|setPowerState|-- is en-dash, --- is em-dash|
+|**Motion Sensor**|setPowerState|-- is en-dash, --- is em-dash|
+|**Contact Sensor**|setPowerState|-- is en-dash, --- is em-dash|
+|**TV**|setPowerState|-- is en-dash, --- is em-dash|
+|**Smart Speaker**|setPowerState|-- is en-dash, --- is em-dash|
+|**Smart Doorlock**|setPowerState|-- is en-dash, --- is em-dash 
 
 ## KaTeX
 
@@ -147,6 +147,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDgzMDc2MTYsMTU3NTMyMjU1NSwtMT
-U3MDAwNDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
+eyJoaXN0b3J5IjpbOTIzNDcxNTUsMTU3NTMyMjU1NSwtMTU3MD
+AwNDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
 -->
