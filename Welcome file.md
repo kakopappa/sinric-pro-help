@@ -127,11 +127,9 @@ You ->> Alexa: Alexa, turn on [device name]
 Alexa->>Sinric: turn on [device name]
 Sinric->>IOT Device: {action:on}
 IOT Device->>Sinric: {success:ture}
-Note right of IOT Device: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+Note right of IOT Device: Responds back <br/>to success/ failed <br/>status.
 Sinric->> Alexa : Sucess!
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
+Alexa--> You : OKey
 ```
 
 And this will produce a flow chart:
@@ -144,5 +142,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzc5NzEwMTAsMTI1MDg1MTMwNV19
+eyJoaXN0b3J5IjpbNjQ5NTA2MzQsMTI1MDg1MTMwNV19
 -->
