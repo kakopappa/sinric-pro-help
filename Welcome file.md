@@ -3,18 +3,16 @@
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
 
-# Supported devices
+# FolSupported devices
 
-We support most of the common household appliances.
-
-## Smart Light Bulb
-To create a smart bulb, Login to your Sinric account -> Devices -> Add Device 
+ - Smart Light Bulb
+ - Smart Socket
 
 Following Alexa Interaces are supported
 
 Following Google Home traits are supported
 
-## Smart Socket
+
 
 All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
 
@@ -145,5 +143,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5MDc5NDQxXX0=
+eyJoaXN0b3J5IjpbLTk0MTk4NF19
 -->
