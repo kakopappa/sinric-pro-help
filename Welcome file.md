@@ -6,19 +6,19 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 # Supported devices
 
  - [Smart Light Bulb](devices/Smart%20Light%20Bulb.md)
- - Smart Switch
- - Smart Switch with Dimmer
- - Doorbell
- - Temperature Sensor
- - Window AC Unit
- - Fan
- - Motion Sensor
- - Contact Sensor
- - Thermostat
- - TV
- - Smart Speaker
- - Smart Lock
- - Door
+ - [Smart Switch](devices/Smart%20Light%20Bulb.md)
+ - [Smart Switch with Dimmer](devices/Smart%20Light%20Bulb.md)
+ - [Doorbell](devices/Smart%20Light%20Bulb.md)
+ - [Temperature Sensor](devices/Smart%20Light%20Bulb.md)
+ - [Window AC Unit](devices/Smart%20Light%20Bulb.md)
+ - [Fan](devices/Smart%20Light%20Bulb.md)
+ - [Motion Sensor](devices/Motion%20Sensor.md)
+ - [Contact Sensor](devices/Contact%20Sensor.md)
+ - [Thermostat](devices/Thermostat.md)
+ - [TV](devices/TV.md)
+ - [Smart Speaker](devices/Smart%20Light%20Bulb.md)
+ - [Smart Lock](devices/Smart%20Light%20Bulb.md)
+ - [Door](devices/Door.md)
 
 
 All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
@@ -149,6 +149,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTY3OTQwMCwyMDY1NTg3OTI5LDEyNT
-A4NTEzMDVdfQ==
+eyJoaXN0b3J5IjpbNjEzMTEzNDM3LDIwNjU1ODc5MjksMTI1MD
+g1MTMwNV19
 -->
