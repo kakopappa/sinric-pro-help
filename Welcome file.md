@@ -101,7 +101,7 @@ Following devices are using actions:
 |**Doorbell**| setPowerState|-- is en-dash, --- is em-dash|
 |**Temperature Sensor** |setPowerState|-- is en-dash, --- is em-dash|
 |**Thermostat**|setPowerState,targetTemperature, setThermostatMode|-- is en-dash, --- is em-dash|
-|**Window AC Unit**|setPowerState|-- is en-dash, --- is em-dash|
+|**Window AC Unit**|setPowerState, targetTemperature, setThermostatMode, setRangeValue, adjustRangeValue|-- is en-dash, --- is em-dash|
 |**Fan**|setPowerState|-- is en-dash, --- is em-dash|
 |**Motion Sensor**|setPowerState|-- is en-dash, --- is em-dash|
 |**Contact Sensor**|setPowerState|-- is en-dash, --- is em-dash|
@@ -147,6 +147,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzNDcxNTUsMTU3NTMyMjU1NSwtMTU3MD
-AwNDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
+eyJoaXN0b3J5IjpbMjA5MTQ5MDM3OSwxNTc1MzIyNTU1LC0xNT
+cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
 -->
