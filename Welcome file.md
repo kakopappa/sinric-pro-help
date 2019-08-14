@@ -1,17 +1,17 @@
 # Welcome to Sinric Pro Help!
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+Welcome to **Sinric Pro**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
 
 # Supported devices
 
  - [Smart Light Bulb](devices/Smart%20Light%20Bulb.md)
- - [Smart Switch](devices/Smart%20Light%20Bulb.md)
- - [Smart Switch with Dimmer](devices/Smart%20Light%20Bulb.md)
- - [Doorbell](devices/Smart%20Light%20Bulb.md)
- - [Temperature Sensor](devices/Smart%20Light%20Bulb.md)
- - [Window AC Unit](devices/Smart%20Light%20Bulb.md)
- - [Fan](devices/Smart%20Light%20Bulb.md)
+ - [Smart Switch](devices/Smart%20Switch.md)
+ - [Smart Switch with Dimmer](devices/Smart%20Switch%20with%20Dimmer.md)
+ - [Doorbell](devices/Doorbell.md)
+ - [Temperature Sensor](devices/Temperature%20Sensor.md)
+ - [Window AC Unit](devices/Window%20AC%20Unit.md)
+ - [Fan](devices/Fan.md)
  - [Motion Sensor](devices/Motion%20Sensor.md)
  - [Contact Sensor](devices/Contact%20Sensor.md)
  - [Thermostat](devices/Thermostat.md)
@@ -149,6 +149,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzMTEzNDM3LDIwNjU1ODc5MjksMTI1MD
-g1MTMwNV19
+eyJoaXN0b3J5IjpbLTIzMzgyNjAzNCwyMDY1NTg3OTI5LDEyNT
+A4NTEzMDVdfQ==
 -->
