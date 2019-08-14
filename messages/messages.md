@@ -23,35 +23,30 @@ An act of doing something in Sinric IOT platform will generate a **request** typ
   }
 }
 ```
+[https://github.com/sinricpro/sample_messages/blob/master/01_PowerState/01_setPowerState/01_Request.json](https://github.com/sinricpro/sample_messages/blob/master/01_PowerState/01_setPowerState/01_Request.json)
+
  When you receive a request in your IOT module, you must respond to it by sending an **response** action. The appropriate response to above request would be
 ```
 {
-"payloadVersion": 1,
-"success": true,
-"message": "OK",
-"createdAt": 1561476448,
-"deviceId": "5099803df3f4948bd2f98391",
-"clientId": "alexa-skill",
-
-"messageId" : "c71d3cca-180a-49b0-83ca-f5d9f0aef242",
-
-"type": "response",
-
-"action": "setPowerState",
-
-"value": {
-
-"state": "On"
-
-}
-
+ "payloadVersion": 1,
+ "success": true,
+ "message": "OK",
+ "createdAt": 1561476448,
+ "deviceId": "5099803df3f4948bd2f98391",
+ "clientId": "alexa-skill",
+ "messageId" : "c71d3cca-180a-49b0-83ca-f5d9f0aef242",
+ "type": "response",
+ "action": "setPowerState",
+ "value": {
+     "state": "On"
+  }
 }
 ```
 [https://github.com/sinricpro/sample_messages/blob/master/01_PowerState/01_setPowerState/02_Response.json](https://github.com/sinricpro/sample_messages/blob/master/01_PowerState/01_setPowerState/02_Response.json)
 
 So the server can update the interested parties about the status of the **request** they made.
 
-Interacting with a device physically or making a change in the device will raise an **event**. for an example: pushing a button to turn on/off a device may raise an setPowerState event to notify the server
+Let's imagine you want to turn on the device using a push button, in that case, you are interacting with a device physically or making a change in the device. So the module will raise an **event**. for an example: pushing a button to turn on/off a device may raise an setPowerState event to notify the server
 
 ## Complete actions and events list
 
@@ -100,5 +95,5 @@ B -- 4. Okey -->A
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTQ0NTMwNCw2NDI0NTU0MzhdfQ==
+eyJoaXN0b3J5IjpbNjk2MTE2ODI4LDY0MjQ1NTQzOF19
 -->
