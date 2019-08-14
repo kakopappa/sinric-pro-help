@@ -9,12 +9,16 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
  -  Smart Switch
  - Smart Switch with Dimmer
  - Doorbell
- - 
- - Doorbell
+ - Temperature Sensor
+ - Window AC Unit
+ - Fan
+ - Motion Sensor
  - Contact Sensor
+ - Thermostat
  - TV
+ - Smart Speaker
+ - Smart Lock
  - Door
- - 
 
 
 All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
@@ -145,6 +149,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTI0NjY3NywyMDY1NTg3OTI5LDEyNT
+eyJoaXN0b3J5IjpbMjAyMjMwNjY5OCwyMDY1NTg3OTI5LDEyNT
 A4NTEzMDVdfQ==
 -->
