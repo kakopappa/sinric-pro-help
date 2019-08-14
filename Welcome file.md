@@ -102,12 +102,12 @@ Following devices are using actions:
 |**Temperature Sensor** |setPowerState|-- is en-dash, --- is em-dash|
 |**Thermostat**|setPowerState,targetTemperature, setThermostatMode|-- is en-dash, --- is em-dash|
 |**Window AC Unit**|setPowerState, targetTemperature, setThermostatMode, setRangeValue, adjustRangeValue|-- is en-dash, --- is em-dash|
-|**Fan**|setPowerState|-- is en-dash, --- is em-dash|
+|**Fan**|setPowerState, setRangeValue|-- is en-dash, --- is em-dash|
 |**Motion Sensor**|setPowerState|-- is en-dash, --- is em-dash|
 |**Contact Sensor**|setPowerState|-- is en-dash, --- is em-dash|
-|**TV**|setPowerState|-- is en-dash, --- is em-dash|
-|**Smart Speaker**|setPowerState|-- is en-dash, --- is em-dash|
-|**Smart Doorlock**|setPowerState|-- is en-dash, --- is em-dash 
+|**TV**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, selectInput, changeChannel, skipChannels|-- is en-dash, --- is em-dash|
+|**Smart Speaker**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, setBands, adjustBands, resetBands, setMode|-- is en-dash, --- is em-dash|
+|**Smart Doorlock**|setLockState|-- is en-dash, --- is em-dash 
 
 ## KaTeX
 
@@ -147,6 +147,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTQ5MDM3OSwxNTc1MzIyNTU1LC0xNT
-cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
+eyJoaXN0b3J5IjpbLTIxMDc0MzgxNjgsMTU3NTMyMjU1NSwtMT
+U3MDAwNDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
 -->
