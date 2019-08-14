@@ -93,10 +93,11 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 Following devices are using actions:
 
-|                |Amazon Alexa |Google Home| Android/IOS/Web App|
+|                |Amazon Alexa |Google Home| 
 |----------------|------|---------|------|
-|Smart Switch | setPowerState | setPowerState| setPowerState |
-|Smart Light Bulb  |setPowerState adjustBrightness setBrightness setColor decreaseColorTemperature increaseColorTemperature setColorTemperature setPowerLevel adjustPowerLevel|setPowerState|setPowerState            |
+|Smart Switch | setPowerState | setPowerState 
+|Smart Light Bulb  |setPowerState adjustBrightness setBrightness setColor decreaseColorTemperature increaseColorTemperature setColorTemperature setPowerLevel adjustPowerLevel|setPowerState          
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 |Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
 
@@ -138,6 +139,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2MzU0ODM3LDE1NzUzMjI1NTUsLTE1Nz
+eyJoaXN0b3J5IjpbNzQ1MTY5NjM4LDE1NzUzMjI1NTUsLTE1Nz
 AwMDQyMzIsMjA2NTU4NzkyOSwxMjUwODUxMzA1XX0=
 -->
