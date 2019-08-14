@@ -87,12 +87,12 @@ D -- 3. succes --> B
 B -- 4. Okey -->A
 ```
 
-How an eworks:
+How an event works:
 
 ```mermaid
 graph LR
-A[Alexa] -- 1. turn on tv --> B(Sinric)
-B -- 2.turn on tv --> D[IOT Module]
+A[IOT Module] -- 1. pushed a button --> B(Sinric)
+B -- 2.turn on tv --> D[Website/Alexa/GH]
 D -- 3. succes --> B
 B -- 4. Okey -->A
 ```
@@ -121,5 +121,5 @@ B -- 4. Okey -->A
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0MzExMTE2LDY0MjQ1NTQzOF19
+eyJoaXN0b3J5IjpbMTQ1NDczNDU0NSw2NDI0NTU0MzhdfQ==
 -->
