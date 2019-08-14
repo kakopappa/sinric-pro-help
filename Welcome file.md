@@ -12,7 +12,7 @@ Welcome to **Sinric Pro** device documentation.
  - Python SDK
  - NodeJS SDK
 
-# Supported devices
+## Supported devices
 
 Following device types are supported at the moment
  - [Smart Light Bulb](devices/Smart%20Light%20Bulb.md)
@@ -35,7 +35,7 @@ Following device types are supported at the moment
 
  - How to make a doorbell
  
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
+	> Before starting make sure to create an account.
 
 ## Open a file
 
@@ -99,7 +99,7 @@ There are 3 types of messages in Sinric
 
 An act of doing something in Sinric system will generate a **request** action. eg: turn on a tv using Alexa. When you receive a request in your IOT module, you must respond to it by sending an **response** action. So the server can update the interested parties about the status of the **request** they made.
 
-Interacting with a device physically or making a change in the device will raise an **event**. for an example: pushing a button to turn on/off a device will raise an setPowerState event to let the server know. Unix epoch time is in seconds
+Interacting with a device physically or making a change in the device will raise an **event**. for an example: pushing a button to turn on/off a device may raise an setPowerState event to notify the server
 
 ## Complete actions and events list
 
@@ -157,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTg3Nzk5MSwxNTc1MzIyNTU1LC0xNT
-cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
+eyJoaXN0b3J5IjpbLTE5MjgxODE0OTMsMTU3NTMyMjU1NSwtMT
+U3MDAwNDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
 -->
