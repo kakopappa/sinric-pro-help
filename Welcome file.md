@@ -14,7 +14,7 @@ Welcome to **Sinric Pro** device documentation.
  - Introduction 
  - Sample messages
 
-**Supported Device Tyes**
+**Supported Device Types**
 
 Following device types are supported at the moment
 
@@ -43,7 +43,7 @@ Following device types are supported at the moment
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTUxNzc1MSw4NTQ5MzU5MDQsMTU3NT
-MyMjU1NSwtMTU3MDAwNDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEz
-MDVdfQ==
+eyJoaXN0b3J5IjpbLTE0MjU5MDEzODksODU0OTM1OTA0LDE1Nz
+UzMjI1NTUsLTE1NzAwMDQyMzIsMjA2NTU4NzkyOSwxMjUwODUx
+MzA1XX0=
 -->
