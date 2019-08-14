@@ -46,7 +46,23 @@ An act of doing something in Sinric IOT platform will generate a **request** typ
 
 So the server can update the interested parties about the status of the **request** they made.
 
-Let's imagine you want to turn on the device using a push button, in that case, you are interacting with a device physically or making a change in the device. So the module will raise an **event**. for an example: pushing a button to turn on/off a device may raise an setPowerState event to notify the server
+Let's imagine you want to turn on the device using a push button, in that case, you are interacting with a device physically or making a change in the device. So the module will raise an **event**. 
+```
+{
+ "payloadVersion": 1,
+ "createdAt": 1561476448,
+ "messageId": "fca894e9-9c47-4447-9313-be4475508a8d",
+ "deviceId": "5099803df3f4948bd2f98391",
+ "type": "event",
+ "action": "setPowerState",
+ "value": {
+  "state": "On"
+ },
+ "cause": {
+  "type": "PHYSICAL_INTERACTION"
+ }
+}
+```
 
 ## Complete actions and events list
 
@@ -95,5 +111,5 @@ B -- 4. Okey -->A
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2MTE2ODI4LDY0MjQ1NTQzOF19
+eyJoaXN0b3J5IjpbLTQyNzU4OTAyMiw2NDI0NTU0MzhdfQ==
 -->
