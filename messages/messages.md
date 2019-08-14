@@ -1,7 +1,5 @@
 
-
 # Messages
-
 There are 3 types of messages in Sinric
 
  1. Request
@@ -25,7 +23,7 @@ An act of doing something in Sinric IOT platform will generate a **request** typ
 ```
 [https://github.com/sinricpro/sample_messages/blob/master/01_PowerState/01_setPowerState/01_Request.json](https://github.com/sinricpro/sample_messages/blob/master/01_PowerState/01_setPowerState/01_Request.json)
 
- When you receive a request in your IOT module, you must respond to it by sending an **response** action. The appropriate response to above request would be
+ When you receive a request in your IOT module, you must respond to it by sending an **response** action. The appropriate response to above request should be
 ```
 {
  "payloadVersion": 1,
@@ -43,6 +41,8 @@ An act of doing something in Sinric IOT platform will generate a **request** typ
 }
 ```
 [https://github.com/sinricpro/sample_messages/blob/master/01_PowerState/01_setPowerState/02_Response.json](https://github.com/sinricpro/sample_messages/blob/master/01_PowerState/01_setPowerState/02_Response.json)
+
+* If you are using the SDK this is done for you
 
 So the server can update the interested parties about the status of the **request** they made.
 
@@ -111,5 +111,5 @@ B -- 4. Okey -->A
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNzU4OTAyMiw2NDI0NTU0MzhdfQ==
+eyJoaXN0b3J5IjpbODY5MDE4ODc3LDY0MjQ1NTQzOF19
 -->
