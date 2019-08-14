@@ -7,11 +7,11 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
  - Smart Light Bulb
  - Smart Socket
-
-Following Alexa Interaces are supported
-
-Following Google Home traits are supported
-
+ - Doorbell
+ - Contact Sensor
+ - TV
+ - Door
+ - 
 
 
 All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
@@ -123,7 +123,7 @@ You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For e
 
 ```mermaid
 sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
+Alexa ->> Alexa: Hello Bob, how are you?
 Bob-->>John: How about you John?
 Bob--x Alice: I am good thanks!
 Bob-x John: I am good thanks!
@@ -143,5 +143,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDg1MTMwNV19
+eyJoaXN0b3J5IjpbMjY0NzYzMjQ4LDEyNTA4NTEzMDVdfQ==
 -->
