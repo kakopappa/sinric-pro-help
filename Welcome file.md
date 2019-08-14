@@ -95,8 +95,14 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 
 |                |Alexa |Google Home| Android App|
 |----------------|------|---------|------|
-|Smart Switch | setPowerState | setPowerState| setPowerState
-|Doorbell  |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|Smart Switch | setPowerState | setPowerState| setPowerState |
+|Smart Light Bulb  |setPowerState adjustBrightness setBrightness
+-   setColor
+-   decreaseColorTemperature
+-   increaseColorTemperature
+-   setColorTemperature
+-   setPowerLevel
+-   adjustPowerLevel|"Isn't this fun?"            |
 |Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
 
@@ -138,6 +144,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTg0MzU2NywxNTc1MzIyNTU1LC0xNT
+eyJoaXN0b3J5IjpbLTEwMzQxNjg0OSwxNTc1MzIyNTU1LC0xNT
 cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
 -->
