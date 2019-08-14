@@ -100,7 +100,7 @@ B -- 2.turn on tv --> D[Website/Alexa/GH/App]
 |                |Action |Event| 
 |----------------|------|---------|------|
 |**Smart Switch** | setPowerState | setPowerState 
-|**Smart Light Bulb**  |setPowerState, adjustBrightness, setBrightness, setColor, decreaseColorTemperature, increaseColorTemperature, setColorTemperature, setPowerLevel, adjustPowerLevel|setPowerState, setPowerLevel, setColor, setColorTemperature          
+|**Smart Light Bulb**  |setPowerState, adjustBrightness, setBrightness, setColor, decreaseColorTemperature, increaseColorTemperature, setColorTemperature, setPowerLevel, adjustPowerLevel|setPowerState, setPowerLevel, setColor, setColorTemperature|          
 |**Smart Switch with Dimmer**|setPowerState, setPowerLevel adjustPowerLevel|setPowerState, setPowerLevel|
 |**Doorbell**| setPowerState|DoorbellPress, setPowerState|
 |**Temperature Sensor** |setPowerState|setPowerState, currentTemperature|
@@ -111,7 +111,7 @@ B -- 2.turn on tv --> D[Website/Alexa/GH/App]
 |**Contact Sensor**|setPowerState|setPowerState, setContactState|
 |**TV**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, selectInput, changeChannel, skipChannels|setPowerState, setVolume, setMute, mediaControl, selectInput, changeChannel, skipChannels|
 |**Smart Speaker**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, setBands, adjustBands, resetBands, setMode|setPowerState, setVolume, setMute, mediaControl, setBands, resetBands, setMode|
-|**Smart Doorlock**|setLockState|setLockState 
+|**Smart Doorlock**|setLockState|setLockState| 
 
  
 
@@ -119,5 +119,6 @@ B -- 2.turn on tv --> D[Website/Alexa/GH/App]
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDk1MTk4LDY0MjQ1NTQzOF19
+eyJoaXN0b3J5IjpbLTE1MjY5MzM1NzgsLTI0NDk1MTk4LDY0Mj
+Q1NTQzOF19
 -->
