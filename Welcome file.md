@@ -96,9 +96,9 @@ Following devices are using actions:
 |                |Action |Event| 
 |----------------|------|---------|------|
 |**Smart Switch** | setPowerState | setPowerState 
-|**Smart Light Bulb**  |setPowerState adjustBrightness setBrightness setColor decreaseColorTemperature increaseColorTemperature setColorTemperature setPowerLevel adjustPowerLevel|setPowerState          
-|**Smart Switch with Dimmer**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-|**Doorbell**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|**Smart Light Bulb**  |setPowerState, adjustBrightness, setBrightness, setColor, decreaseColorTemperature, increaseColorTemperature, setColorTemperature, setPowerLevel, adjustPowerLevel|setPowerState          
+|**Smart Switch with Dimmer**|setPowerState, setPowerLevel adjustPowerLevel|-- is en-dash, --- is em-dash|
+|**Doorbell**| setPowerState|-- is en-dash, --- is em-dash|
 |**Temperature Sensor** |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 |**Thermostat**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 |**Window AC Unit**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
@@ -147,6 +147,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzg1MTI5MzEsMTU3NTMyMjU1NSwtMT
+eyJoaXN0b3J5IjpbLTE1NDgzMDc2MTYsMTU3NTMyMjU1NSwtMT
 U3MDAwNDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
 -->
