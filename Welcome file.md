@@ -95,11 +95,13 @@ Following devices are using actions:
 
 |                |Amazon Alexa |Google Home| 
 |----------------|------|---------|------|
-|Smart Switch | setPowerState | setPowerState 
-|Smart Light Bulb  |setPowerState adjustBrightness setBrightness setColor decreaseColorTemperature increaseColorTemperature setColorTemperature setPowerLevel adjustPowerLevel|setPowerState          
+|**Smart Switch** | setPowerState | setPowerState 
+|**Smart Light Bulb**  |setPowerState adjustBrightness setBrightness setColor decreaseColorTemperature increaseColorTemperature setColorTemperature setPowerLevel adjustPowerLevel|setPowerState          
+|**Smart Switch with Dimmer**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|**Doorbell**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|**Temperature Sensor** |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 |Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 |Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
 
 ## KaTeX
 
@@ -139,6 +141,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1MTY5NjM4LDE1NzUzMjI1NTUsLTE1Nz
-AwMDQyMzIsMjA2NTU4NzkyOSwxMjUwODUxMzA1XX0=
+eyJoaXN0b3J5IjpbMTI1NDUwODQ0OCwxNTc1MzIyNTU1LC0xNT
+cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
 -->
