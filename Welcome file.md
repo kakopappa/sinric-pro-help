@@ -90,12 +90,12 @@ And this will produce a flow chart:
 
 ```mermaid
 graph LR
-A[Square Rect] -- Link text --> B((Circle))
+A[Alexa] -- turn on tv --> B(Sinric)
 A --> C(Round Rect)
 B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA0MDcwNjcsMTU3NTMyMjU1NSwtMT
-U3MDAwNDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
+eyJoaXN0b3J5IjpbLTY4Mjk0OTk4MSwxNTc1MzIyNTU1LC0xNT
+cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
 -->
