@@ -44,10 +44,10 @@ An act of doing something in Sinric IOT platform will generate a **request** typ
 
 * If you are using the SDK this is done for you internally!
 
-So the server can update the interested parties about the status of the **request** they made.
+Upon receiving this response in the server, the server will update the interested parties about the status of the **request** they made.
 
-Let's imagine you want to turn on the device using a push button, in that case, you are interacting with a device physically or making a change in the device. So the module will raise an **event**. 
-```
+Let's imagine you want to turn on the device by pushing a button. in that case, you are interacting with a device physically or making a change to the device manually. So you should raise an **event**. 
+``` to let the 
 {
  "payloadVersion": 1,
  "createdAt": 1561476448,
@@ -111,5 +111,5 @@ B -- 4. Okey -->A
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDY1MDYzODUsNjQyNDU1NDM4XX0=
+eyJoaXN0b3J5IjpbLTIzNzM3MzE5NSw2NDI0NTU0MzhdfQ==
 -->
