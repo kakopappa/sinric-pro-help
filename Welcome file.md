@@ -12,14 +12,9 @@ Welcome to **Sinric Pro** device documentation.
  - Python SDK
  - NodeJS SDK
 
-Android App
-
- 
-
- - He
-
 # Supported devices
 
+Follow
  - [Smart Light Bulb](devices/Smart%20Light%20Bulb.md)
  - [Smart Switch](devices/Smart%20Switch.md)
  - [Smart Switch with Dimmer](devices/Smart%20Switch%20with%20Dimmer.md)
@@ -164,6 +159,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDAxNjY5NjUsLTE1NzAwMDQyMzIsMj
-A2NTU4NzkyOSwxMjUwODUxMzA1XX0=
+eyJoaXN0b3J5IjpbMTk2MjYzOTYyLC0xNTcwMDA0MjMyLDIwNj
+U1ODc5MjksMTI1MDg1MTMwNV19
 -->
