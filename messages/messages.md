@@ -70,8 +70,8 @@ Let's imagine you want to turn on the device by pushing a button. in that case, 
 sequenceDiagram
 You ->> Alexa: Alexa, turn on [device name]
 Alexa->>Sinric: turn on [device name]
-Sinric->>IOT Device: {action:on}
-IOT Device->>Sinric: {success:ture}
+Sinric->>IOT Device: {"action":"setPowerState"}
+IOT Device->>Sinric: {"success": true}
 Note right of IOT Device: Responds back <br/>with success or failed <br/>status.
 Sinric->> Alexa : Sucess!
 Alexa->> You : Okey
@@ -91,10 +91,8 @@ How an event works:
 
 ```mermaid
 graph LR
-A[IOT Module] -- 1. pushed a button --> B(Sinric)
-B -- 2.turn on tv --> D[Website/Alexa/GH]
-D -- 3. succes --> B
-B -- 4. Okey -->A
+A[IOT Module] -- 1. turn on tv --> B(Sinric)
+B -- 2.turn on tv --> D[Website/Alexa/GH/App]
 ```
 
 ## Complete actions and events list
@@ -121,5 +119,5 @@ B -- 4. Okey -->A
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDczNDU0NSw2NDI0NTU0MzhdfQ==
+eyJoaXN0b3J5IjpbLTI0NDk1MTk4LDY0MjQ1NTQzOF19
 -->
