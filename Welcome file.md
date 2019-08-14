@@ -89,9 +89,9 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 
 
+# Messages
 
-# Req, responses and events list
-There are 3 types of actions in Sinric
+There are 3 types of messages in Sinric
 
  1. Request
  2. Respond
@@ -157,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyMjgxMzYyLDE1NzUzMjI1NTUsLTE1Nz
-AwMDQyMzIsMjA2NTU4NzkyOSwxMjUwODUxMzA1XX0=
+eyJoaXN0b3J5IjpbMjA4MzQ4ODMwMywxNTc1MzIyNTU1LC0xNT
+cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
 -->
