@@ -14,8 +14,10 @@ Welcome to **Sinric Pro** device documentation.
  - Introduction 
  - Sample messages
 
-**Supported devices**
+**Supported Device Tyes**
+
 Following device types are supported at the moment
+
  - [Smart Light Bulb](devices/Smart%20Light%20Bulb.md)
  - [Smart Switch](devices/Smart%20Switch.md)
  - [Smart Switch with Dimmer](devices/Smart%20Switch%20with%20Dimmer.md)
@@ -32,7 +34,7 @@ Following device types are supported at the moment
  - [Door](devices/Door.md)
  
 
-## Tutorials
+**Tutorials**
 
  - How to make a doorbell
  
@@ -41,7 +43,7 @@ Following device types are supported at the moment
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTc3Nzk0OTksODU0OTM1OTA0LDE1Nz
-UzMjI1NTUsLTE1NzAwMDQyMzIsMjA2NTU4NzkyOSwxMjUwODUx
-MzA1XX0=
+eyJoaXN0b3J5IjpbMTg0MTUxNzc1MSw4NTQ5MzU5MDQsMTU3NT
+MyMjU1NSwtMTU3MDAwNDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEz
+MDVdfQ==
 -->
