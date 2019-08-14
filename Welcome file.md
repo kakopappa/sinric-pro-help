@@ -93,7 +93,7 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 Following devices are using actions:
 
-|                |Amazon Alexa |Google Home| 
+|                |Action |Event| 
 |----------------|------|---------|------|
 |**Smart Switch** | setPowerState | setPowerState 
 |**Smart Light Bulb**  |setPowerState adjustBrightness setBrightness setColor decreaseColorTemperature increaseColorTemperature setColorTemperature setPowerLevel adjustPowerLevel|setPowerState          
@@ -107,9 +107,7 @@ Following devices are using actions:
 |**Contact Sensor**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 |**TV**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 |**Smart Speaker**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-|**TV**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-|**TV**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
+|**Smart Doorlock**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash 
 
 ## KaTeX
 
@@ -149,6 +147,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDAzNTUwNzQsMTU3NTMyMjU1NSwtMT
+eyJoaXN0b3J5IjpbLTE0Nzg1MTI5MzEsMTU3NTMyMjU1NSwtMT
 U3MDAwNDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
 -->
