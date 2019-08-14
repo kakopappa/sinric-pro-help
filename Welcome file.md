@@ -100,8 +100,16 @@ Following devices are using actions:
 |**Smart Switch with Dimmer**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 |**Doorbell**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 |**Temperature Sensor** |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|**Thermostat**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|**Window AC Unit**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|**Fan**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|**Motion Sensor**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|**Contact Sensor**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|**TV**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|**Smart Speaker**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|**TV**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|**TV**|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
 
 ## KaTeX
 
@@ -141,6 +149,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDUwODQ0OCwxNTc1MzIyNTU1LC0xNT
-cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
+eyJoaXN0b3J5IjpbLTEzMDAzNTUwNzQsMTU3NTMyMjU1NSwtMT
+U3MDAwNDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
 -->
