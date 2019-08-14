@@ -8,7 +8,11 @@ There are 3 types of messages in Sinric
  2. Respond
  3. Event
 
-An act of doing something in Sinric system will generate a **request** action. eg: turn on a tv using Alexa. When you receive a request in your IOT module, you must respond to it by sending an **response** action. So the server can update the interested parties about the status of the **request** they made.
+An act of doing something in Sinric IOT platform will generate a **request** action message. Eg: Alexa, turn on TV. will generate an action like this 
+```
+
+```
+ When you receive a request in your IOT module, you must respond to it by sending an **response** action. So the server can update the interested parties about the status of the **request** they made.
 
 Interacting with a device physically or making a change in the device will raise an **event**. for an example: pushing a button to turn on/off a device may raise an setPowerState event to notify the server
 
@@ -59,5 +63,5 @@ B -- 4. Okey -->A
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyNDU1NDM4XX0=
+eyJoaXN0b3J5IjpbLTkwMjY2ODA1Myw2NDI0NTU0MzhdfQ==
 -->
