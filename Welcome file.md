@@ -93,9 +93,9 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
 
-|                |Alexa                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|TV|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|                |Alexa |Google Home                         |
+|----------------|------|---------|
+|**Smart Switch**             |`'Isn't this fun?'`            |'Isn't this fun?'            |
 |Doorbell  |`"Isn't this fun?"`            |"Isn't this fun?"            |
 |Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
@@ -138,6 +138,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyODcxNTM4LDE1NzUzMjI1NTUsLTE1Nz
-AwMDQyMzIsMjA2NTU4NzkyOSwxMjUwODUxMzA1XX0=
+eyJoaXN0b3J5IjpbLTIxMjc3NDcyNzMsMTU3NTMyMjU1NSwtMT
+U3MDAwNDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
 -->
