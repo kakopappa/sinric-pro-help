@@ -97,7 +97,7 @@ There are 3 types of messages in Sinric
  2. Respond
  3. Event
 
-What is an action? An act of doing something in Sinric system will generate an **request** action. When you receive a request action, you must respond to it by sending an **response** action.
+An act of doing something in Sinric system will generate a **request** action. eg: turn on a tv using Alexa. When you receive a request, you must respond to it by sending an **response** action.
 
 Interacting with a device physically or a change in the device will raise an **event**. eg: pushing a button to turn on/off a device will raise an setPowerState event to let the server know. Unix epoch time is in seconds
 
@@ -157,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzQ4ODMwMywxNTc1MzIyNTU1LC0xNT
-cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
+eyJoaXN0b3J5IjpbMzMxOTQ2MzM1LDE1NzUzMjI1NTUsLTE1Nz
+AwMDQyMzIsMjA2NTU4NzkyOSwxMjUwODUxMzA1XX0=
 -->
