@@ -3,20 +3,16 @@
 Welcome to **Sinric Pro** device documentation.
 
 **API**
-
  - Complete API documentation is available [here](https://apidocs.sinric.pro/)
 
 **SDKs**
-
  - ESP8266/ESP32 SDK
  - Python SDK
  - NodeJS SDK
 
 **Message format**
-
- - Sinric has a unified message format. 
+ - Introduction 
  - Sample messages
- - 
 
 ## Supported devices
 
@@ -102,6 +98,6 @@ D -- 3. succes --> B
 B -- 4. Okey -->A
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzMzNDkyLDE1NzUzMjI1NTUsLTE1Nz
+eyJoaXN0b3J5IjpbODU0OTM1OTA0LDE1NzUzMjI1NTUsLTE1Nz
 AwMDQyMzIsMjA2NTU4NzkyOSwxMjUwODUxMzA1XX0=
 -->
