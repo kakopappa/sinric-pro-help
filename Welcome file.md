@@ -2,14 +2,21 @@
 
 Welcome to **Sinric Pro** device documentation.
 
-SDKs
+**API**
+
+ - Complete API documentation is available [here](https://apidocs.sinric.pro/)
+
+**SDKs**
 
  - ESP8266/ESP32 SDK
  - Python SDK
  - NodeJS SDK
 
+Android App
+
  
 
+ - He
 
 # Supported devices
 
@@ -157,6 +164,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODY0Nzg5MywtMTU3MDAwNDIzMiwyMD
-Y1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
+eyJoaXN0b3J5IjpbLTE2MDAxNjY5NjUsLTE1NzAwMDQyMzIsMj
+A2NTU4NzkyOSwxMjUwODUxMzA1XX0=
 -->
