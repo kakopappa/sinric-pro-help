@@ -5,7 +5,7 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
 # Supported devices
 
- - Smart Light Bulb
+ - [Smart Light Bulb](devices/Smart%20Light%20Bulb.md)
  - Smart Socket
  - Doorbell
  - Contact Sensor
@@ -142,5 +142,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyNDU1MTIwLDEyNTA4NTEzMDVdfQ==
+eyJoaXN0b3J5IjpbOTcyMjU0NDYsMTI1MDg1MTMwNV19
 -->
