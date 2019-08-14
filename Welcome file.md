@@ -86,7 +86,7 @@ Sinric->> Alexa : Sucess!
 Alexa->> You : Okey
 ```
 
-And this will produce a flow chart:
+How an request / response works:
 
 ```mermaid
 graph LR
@@ -96,6 +96,6 @@ D -- 3. succes --> B
 B -- 4. Okey -->A
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDk5MzA4MCwxNTc1MzIyNTU1LC0xNT
+eyJoaXN0b3J5IjpbMTQwMTU1MzkzMCwxNTc1MzIyNTU1LC0xNT
 cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
 -->
