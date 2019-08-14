@@ -14,7 +14,7 @@ Welcome to **Sinric Pro** device documentation.
 
 # Supported devices
 
-Follow
+Following device types are supported at the moment
  - [Smart Light Bulb](devices/Smart%20Light%20Bulb.md)
  - [Smart Switch](devices/Smart%20Switch.md)
  - [Smart Switch with Dimmer](devices/Smart%20Switch%20with%20Dimmer.md)
@@ -29,13 +29,11 @@ Follow
  - [Smart Speaker](devices/Smart%20Light%20Bulb.md)
  - [Smart Lock](devices/Smart%20Light%20Bulb.md)
  - [Door](devices/Door.md)
+ 
 
+## Tutorials
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
-
-## Dimmable Smart Socket
-
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+ - How to make a doorbell
 
 ## Delete a file
 
@@ -159,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjYzOTYyLC0xNTcwMDA0MjMyLDIwNj
-U1ODc5MjksMTI1MDg1MTMwNV19
+eyJoaXN0b3J5IjpbLTE2MjU1MzcyOTIsLTE1NzAwMDQyMzIsMj
+A2NTU4NzkyOSwxMjUwODUxMzA1XX0=
 -->
