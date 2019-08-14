@@ -89,18 +89,19 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 
 
-## Complete actions and events list
 
+# Req, responses and events list
 There are 3 types of actions in Sinric
 
  1. Request
  2. Respond
  3. Event
 
-What is an action? An act of doing something in Sinric system will generate an **request** . When you receive an action you must respond to it by sending an **response** action type
+What is an action? An act of doing something in Sinric system will generate an **request** action. When you receive a request action, you must respond to it by sending an **response** action.
 
-So, what is an event type? Interacting with a device physically or a change in the device will raise an **event**. eg: pushing a button to turn on/off a device will raise an setPowerState event to let the server know. Unix epoch time is in seconds
+Interacting with a device physically or a change in the device will raise an **event**. eg: pushing a button to turn on/off a device will raise an setPowerState event to let the server know. Unix epoch time is in seconds
 
+## Complete actions and events list
 
 |                |Action |Event| 
 |----------------|------|---------|------|
@@ -156,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDQ1MDA5MiwxNTc1MzIyNTU1LC0xNT
-cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
+eyJoaXN0b3J5IjpbNDkyMjgxMzYyLDE1NzUzMjI1NTUsLTE1Nz
+AwMDQyMzIsMjA2NTU4NzkyOSwxMjUwODUxMzA1XX0=
 -->
