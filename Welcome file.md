@@ -125,7 +125,7 @@ You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For e
 sequenceDiagram
 You ->> Alexa: Alexa, turn on [device name]
 Alexa->>Sinric: turn on [device name]
-Sinric->>IOT Board: I am good thanks!
+Sinric->>IOT Device: {action:on}
 Bob-x John: I am good thanks!
 Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
 
@@ -143,5 +143,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTM2MTUxMCwxMjUwODUxMzA1XX0=
+eyJoaXN0b3J5IjpbLTEyMDYxNjQ1ODksMTI1MDg1MTMwNV19
 -->
