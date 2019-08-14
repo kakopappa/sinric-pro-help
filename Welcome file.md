@@ -91,7 +91,7 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 ## Complete actions and events list
 
-Sinric has 3 action types, but first what is an action? An action is an act of doing something using voice, app or the website. When you respond to an action it must have the same message id in the original "request"
+Sinric has 3 action types, but first what is an action? An act of doing something in Sinric will generate an **action**. When you receive an action you must res
 
 What is an event ? Interacting with a device physically would raise an evet. eg: pushing a button to turn on/off a device will raise an setPowerState event to let the server know. Unix epoch time is in seconds
 
@@ -150,6 +150,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjEyMDA3LDE1NzUzMjI1NTUsLTE1Nz
-AwMDQyMzIsMjA2NTU4NzkyOSwxMjUwODUxMzA1XX0=
+eyJoaXN0b3J5IjpbLTE4MjE4ODExOSwxNTc1MzIyNTU1LC0xNT
+cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
 -->
