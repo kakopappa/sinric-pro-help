@@ -89,9 +89,12 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 
 
-## CompleyActions and events list
+## Complete actions and events list
 
-Following devices are using actions:
+Sinric has 3 action types, but first what is an action? An action is an act of doing something using voice, app or the website. When you respond to an action it must have the same message id in the original "request"
+
+What is an event ? Interacting with a device physically would raise an evet. eg: pushing a button to turn on/off a device will raise an setPowerState event to let the server know. Unix epoch time is in seconds
+
 
 |                |Action |Event| 
 |----------------|------|---------|------|
@@ -147,6 +150,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDcxMDY0MzAsMTU3NTMyMjU1NSwtMT
-U3MDAwNDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
+eyJoaXN0b3J5IjpbMTc2MjEyMDA3LDE1NzUzMjI1NTUsLTE1Nz
+AwMDQyMzIsMjA2NTU4NzkyOSwxMjUwODUxMzA1XX0=
 -->
