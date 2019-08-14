@@ -99,11 +99,11 @@ Following devices are using actions:
 |**Smart Light Bulb**  |setPowerState, adjustBrightness, setBrightness, setColor, decreaseColorTemperature, increaseColorTemperature, setColorTemperature, setPowerLevel, adjustPowerLevel|setPowerState, setPowerLevel, setColor, setColorTemperature          
 |**Smart Switch with Dimmer**|setPowerState, setPowerLevel adjustPowerLevel|setPowerState, setPowerLevel|
 |**Doorbell**| setPowerState|DoorbellPress, setPowerState|
-|**Temperature Sensor** |setPowerState|-- is en-dash, --- is em-dash|
-|**Thermostat**|setPowerState,targetTemperature, setThermostatMode|-- is en-dash, --- is em-dash|
-|**Window AC Unit**|setPowerState, targetTemperature, setThermostatMode, setRangeValue, adjustRangeValue|-- is en-dash, --- is em-dash|
-|**Fan**|setPowerState, setRangeValue|-- is en-dash, --- is em-dash|
-|**Motion Sensor**|setPowerState|-- is en-dash, --- is em-dash|
+|**Temperature Sensor** |setPowerState|setPowerState, currentTemperature|
+|**Thermostat**|setPowerState,targetTemperature, setThermostatMode|setPowerState, targetTemperature, setThermostatMode, currentTemperature|
+|**Window AC Unit**|setPowerState, targetTemperature, setThermostatMode, setRangeValue, adjustRangeValue|setPowerState, targetTemperature, setThermostatMode, setRangeValue, currentTemperature|
+|**Fan**|setPowerState, setRangeValue|setPowerState, setRangeValue|
+|**Motion Sensor**|setPowerState|setPowerState, motion|
 |**Contact Sensor**|setPowerState|-- is en-dash, --- is em-dash|
 |**TV**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, selectInput, changeChannel, skipChannels|-- is en-dash, --- is em-dash|
 |**Smart Speaker**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, setBands, adjustBands, resetBands, setMode|-- is en-dash, --- is em-dash|
@@ -147,6 +147,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTE3MjE0NiwxNTc1MzIyNTU1LC0xNT
+eyJoaXN0b3J5IjpbMTExODA1MjAyNywxNTc1MzIyNTU1LC0xNT
 cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
 -->
