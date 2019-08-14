@@ -1,6 +1,6 @@
 # Welcome to Sinric Pro Help!
 
-Welcome to **Sinric Pro**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+Welcome to **Sinric Pro** device documentation.
 
 
 # Supported devices
@@ -149,6 +149,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzgyNjAzNCwyMDY1NTg3OTI5LDEyNT
-A4NTEzMDVdfQ==
+eyJoaXN0b3J5IjpbLTE1NzAwMDQyMzIsMjA2NTU4NzkyOSwxMj
+UwODUxMzA1XX0=
 -->
