@@ -12,6 +12,12 @@ Welcome to **Sinric Pro** device documentation.
  - Python SDK
  - NodeJS SDK
 
+**Message format**
+
+ - Sinric has a unified message format. 
+ - Sample messages
+ - 
+
 ## Supported devices
 
 Following device types are supported at the moment
@@ -96,6 +102,6 @@ D -- 3. succes --> B
 B -- 4. Okey -->A
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTU1MzkzMCwxNTc1MzIyNTU1LC0xNT
-cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
+eyJoaXN0b3J5IjpbMTQxMzMzNDkyLDE1NzUzMjI1NTUsLTE1Nz
+AwMDQyMzIsMjA2NTU4NzkyOSwxMjUwODUxMzA1XX0=
 -->
