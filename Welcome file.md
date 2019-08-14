@@ -90,12 +90,12 @@ And this will produce a flow chart:
 
 ```mermaid
 graph LR
-A[Alexa] -- turn on tv --> B(Sinric)
-B --> D[IOT Module]
-D -- {s}-- --> B
-B -- Okey -->A
+A[Alexa] -- 1. turn on tv --> B(Sinric)
+B -- 2.turn on tv --> D[IOT Module]
+D -- 3. succes --> B
+B -- 4. Okey -->A
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTg0MDcwNSwxNTc1MzIyNTU1LC0xNT
+eyJoaXN0b3J5IjpbMjEzMDk5MzA4MCwxNTc1MzIyNTU1LC0xNT
 cwMDA0MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
 -->
