@@ -6,7 +6,7 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 # Supported devices
 
  - [Smart Light Bulb](devices/Smart%20Light%20Bulb.md)
- -  Smart Switch
+ - Smart Switch
  - Smart Switch with Dimmer
  - Doorbell
  - Temperature Sensor
@@ -149,6 +149,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjMwNjY5OCwyMDY1NTg3OTI5LDEyNT
+eyJoaXN0b3J5IjpbMTEwNTY3OTQwMCwyMDY1NTg3OTI5LDEyNT
 A4NTEzMDVdfQ==
 -->
