@@ -16,9 +16,12 @@ If you have already linked the Amazon Alexa skill, the app will show a popup lik
 
 Cool!
 
-Now to complete the process, 
-1. enter the WiFi, API key and Switch ID. 
-  2
+Now to complete the process, update the sketch with 
+
+1. WiFi credentials
+2. API key
+3. Switch ID (Switch Id can be copied from Dashboard -> Devices) and then handle the setPowerState action in your IOT module and
+  
 
 #### If you are using the Sinric Pro C++ SDK: 
 ```c++
@@ -67,5 +70,5 @@ Supported Google Home Traits
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwODQ4Mzk1Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTQxNjA5MjM1OCw3MzA5OTgxMTZdfQ==
 -->
