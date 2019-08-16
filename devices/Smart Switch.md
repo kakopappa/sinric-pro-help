@@ -39,12 +39,12 @@ Python example:
 
 Supported Alexa capabilities
 -  Alexa.PowerController
-- 
-1.  capabilities:  "[{"type":"AlexaInterface","interface":"Alexa","version":"3"},{"type":"AlexaInterface","interface":"Alexa.EndpointHealth","version":"3","properties":{"supported":[{"name":"connectivity"}],"proactivelyReported":true,"retrievable":true}},{"type":"AlexaInterface","interface":"","version":"3","properties":{"supported":[{"name":"powerState"}],"proactivelyReported":true,"retrievable":true}},{"type":"AlexaInterface","interface":"Alexa.RangeController","version":"3","instance":"TowerFan.Speed","capabilityResources":{"friendlyNames":[{"@type":"asset","value":{"assetId":"Alexa.Setting.FanSpeed"}}]},"properties":{"supported":[{"name":"rangeValue"}],"proactivelyReported":true,"retrievable":true},"configuration":{"supportedRange":{"minimumValue":1,"maximumValue":3,"precision":1},"presets":[{"rangeValue":3,"presetResources":{"friendlyNames":[{"@type":"asset","value":{"assetId":"Alexa.Value.Maximum"}},{"@type":"asset","value":{"assetId":"Alexa.Value.High"}},{"@type":"text","value":{"text":"Highest","locale":"en-US"}}]}}]}}]"
-Supported Google Home Traits
 
+Supported Google Home Traits
+-  Alexa.PowerController
+"action.devices.traits.OnOff"
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzM3MjQ1MSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbOTI4ODM1MjUyLDczMDk5ODExNl19
 -->
