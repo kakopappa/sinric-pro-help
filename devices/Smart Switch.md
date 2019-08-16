@@ -14,11 +14,13 @@ That's it.
 
 If you have already linked the Amazon Alexa skill, the app will show a popup like this:
 
-Eveytime you turn on or off the device 
-Smart switch will receive setPowerState action when you turn on or off the device. 
+Eveytime you turn on or off the device, the server will send  setPowerState action to your IOT module. If you are using the SDK
+
+
+ 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjc3Njc2OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTQ3NjA1Mzg4Miw3MzA5OTgxMTZdfQ==
 -->
