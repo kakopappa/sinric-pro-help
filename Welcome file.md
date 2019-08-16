@@ -19,20 +19,20 @@ Welcome to **Sinric Pro** device documentation.
 
 Following device types are supported at the moment
 
- - [Smart Light Bulb](devices/Smart%20Light%20Bulb.md)
- - [Smart Switch](devices/Smart%20Switch.md)
- - [Smart Switch with Dimmer](devices/Smart%20Switch%20with%20Dimmer.md)
- - [Doorbell](devices/Doorbell.md)
- - [Temperature Sensor](devices/Temperature%20Sensor.md)
- - [Window AC Unit](devices/Window%20AC%20Unit.md)
- - [Fan](devices/Fan.md)
- - [Motion Sensor](devices/Motion%20Sensor.md)
- - [Contact Sensor](devices/Contact%20Sensor.md)
- - [Thermostat](devices/Thermostat.md)
- - [TV](devices/TV.md)
- - [Smart Speaker](devices/Smart%20Light%20Bulb.md)
- - [Smart Lock](devices/Smart%20Light%20Bulb.md)
- - [Door](devices/Door.md)
+ - [x] [Smart Light Bulb](devices/Smart%20Light%20Bulb.md)
+ - [x] [Smart Switch](devices/Smart%20Switch.md)
+ - [x] [Smart Switch with Dimmer](devices/Smart%20Switch%20with%20Dimmer.md)
+ - [x] [Doorbell](devices/Doorbell.md)
+ - [x] [Temperature Sensor](devices/Temperature%20Sensor.md)
+ - [x] [Window AC Unit](devices/Window%20AC%20Unit.md)
+ - [x] [Fan](devices/Fan.md)
+ - [x] [Motion Sensor](devices/Motion%20Sensor.md)
+ - [x] [Contact Sensor](devices/Contact%20Sensor.md)
+ - [x] [Thermostat](devices/Thermostat.md)
+ - [x] [TV](devices/TV.md)
+ - [x] [Smart Speaker](devices/Smart%20Light%20Bulb.md)
+ - [x] [Smart Lock](devices/Smart%20Light%20Bulb.md)
+ - [ ] [Sliding Door](devices/Sliding%20Door.md)
  
 
 **Tutorials**
@@ -44,7 +44,7 @@ Following device types are supported at the moment
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg2MDY3MzAsLTE4Mzg3OTA0MTQsLT
-E0MjU5MDEzODksODU0OTM1OTA0LDE1NzUzMjI1NTUsLTE1NzAw
-MDQyMzIsMjA2NTU4NzkyOSwxMjUwODUxMzA1XX0=
+eyJoaXN0b3J5IjpbMTc0NzIwMjc5LC0xODM4NzkwNDE0LC0xND
+I1OTAxMzg5LDg1NDkzNTkwNCwxNTc1MzIyNTU1LC0xNTcwMDA0
+MjMyLDIwNjU1ODc5MjksMTI1MDg1MTMwNV19
 -->
