@@ -20,6 +20,16 @@ Now to complete the process, you just have to handle the setPowerState action to
 
 If you are using the C++ SDK: 
 ```c++
+#include <Arduino.h>
+#include <ESP8266WiFi.h>
+#include <SinricPro.h>
+
+#define SSID "YOUR WIFI-SSID HERE"
+#define PASS "YOUR WIFI-PASS HERE"
+#define API_KEY "YOUR-SINRIC-PRO-API-KEY-HERE"
+#define SWITCH_ID "YOUR-SWITCH-DEVICE-ID-HERE"
+...
+
 bool onPowerState(const char* deviceId, PowerState_t& state) {
  Serial.printf("Device %s turned ", deviceId);
  switch (state) {
@@ -28,6 +38,7 @@ bool onPowerState(const char* deviceId, PowerState_t& state) {
 }
  return true;
 }
+.....
 ```
 Complete Arduino/ESP8266/ESP32 example:
 [https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch](https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch/src/Switch.cpp)
@@ -49,5 +60,5 @@ Supported Google Home Traits
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTU1NzIyOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEyMTU2MTUyNzAsNzMwOTk4MTE2XX0=
 -->
