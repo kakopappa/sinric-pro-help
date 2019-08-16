@@ -49,20 +49,16 @@ Complete Arduino/ESP8266/ESP32 example is available
 [here](https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch/src/Switch.cpp)
 
 #### If you are using the Sinric Pro Python SDK: 
-Update the credentails in 
-[credentials.py](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/credentials.py)
-
-then update the code
+Update the credentails in [credentials.py](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/credentials.py), then update the code
 
 ```python
 def power_state(did, state):
 print(did, state['state'])
 return True, state['state']
 ```
-Complete Python example is available here:
-[https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py) 
+Complete Python example is available [here](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py) 
 
-#### Supported Sinrc actions
+#### Supported Sinrc Pro actions
 - [setPowerState](https://github.com/sinricpro/sample_messages/blob/master/01_PowerState/01_setPowerState/01_Request.json)
 
 #### Supported Alexa capabilities
@@ -73,6 +69,6 @@ Complete Python example is available here:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzA5NzU4MCwyMzAzODc5MjAsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbMTMzMTk0NTkxLDIzMDM4NzkyMCw3MzA5OT
+gxMTZdfQ==
 -->
