@@ -52,8 +52,8 @@ Update the credentails in [credentials.py](https://github.com/sinricpro/Python-E
 
 ```python
 def power_state(did, state):
-print(did, state['state'])
-return True, state['state']
+print(did, state)
+return True, state
 ```
 Complete Python example is available [here](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py) 
 
@@ -68,6 +68,6 @@ Complete Python example is available [here](https://github.com/sinricpro/Python-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzcxNTMwMSwyMzAzODc5MjAsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbMTQwMjY1OTkzMywtNDAzNzE1MzAxLDIzMD
+M4NzkyMCw3MzA5OTgxMTZdfQ==
 -->
