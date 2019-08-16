@@ -12,9 +12,11 @@ The following shows an example of how to use a smart switch device.
 
 That's it. 
 
-If you have alre
+If you have already linked the Amazon Alexa skill, the app will show a popup like this:
+
+When you want to turn on, off a switch using the Alexa, Google Home or the App / Web
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzgwMjgwOCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTgzOTkxNDEyNyw3MzA5OTgxMTZdfQ==
 -->
