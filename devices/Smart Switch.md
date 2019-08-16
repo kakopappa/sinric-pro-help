@@ -5,7 +5,7 @@ How to create a Smart Switch device in Sinric Pro
 
 1. Login to  [Sinric](https://sinric.pro/)  
 2. Click on **Devices**
-3. Click on **Add Device** on top right corner
+3. Click on **Add Device** button on top right corner
 4. Enter the device name, description and select the device type as **Smart Switch**
 5. Select a group 
 6. Click Save
@@ -14,7 +14,7 @@ That's it.
 
 If you have already linked the Amazon Alexa skill, the app will show a popup like this:
 
-Now, eveytime when you turn on or off the device the server will send the setPowerState action to your IOT module and you just have. 
+Now, eveytime when you turn on or off the device the server will send the setPowerState action to your IOT module's power state function. 
 
 
 ```c++
@@ -41,5 +41,5 @@ Python example:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTYwODQyMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTExMDQwMTA1MzIsNzMwOTk4MTE2XX0=
 -->
