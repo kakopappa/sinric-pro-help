@@ -20,9 +20,8 @@ Now let's complete the setup process. To do that, you must enter
 - WiFi credentials
 - API key (Dashboard -> Credentials)
 - Switch ID (Dashboard -> Devices)
-- Handle the setPowerState action in your IOT module 
 
-into the sketch
+and handle the setPowerState action in your IOT module 
 
 #### If you are using the Sinric Pro C++ SDK: 
 ```c++
@@ -74,5 +73,6 @@ Complete Python example is available here:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwMzg3OTIwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTc2MTA5OTU5NywyMzAzODc5MjAsNzMwOT
+k4MTE2XX0=
 -->
