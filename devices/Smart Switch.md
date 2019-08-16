@@ -16,7 +16,8 @@ If you have already linked the Amazon Alexa skill, the app will show a popup lik
 
 Cool!
 
-Now to complete the process, you just have to handle the setPowerState action to your IOT module. 
+Now to complete the process, you just have to handle the setPowerState action to your IOT module and enter the WiFi, API key and Switch ID. 
+  
 
 If you are using the C++ SDK: 
 ```c++
@@ -60,5 +61,5 @@ Supported Google Home Traits
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU2MTUyNzAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTI5ODg5MDY1MCw3MzA5OTgxMTZdfQ==
 -->
