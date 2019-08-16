@@ -16,9 +16,8 @@ If you have already linked the Amazon Alexa skill, the app will show a popup lik
 
 Now, there are two commands you should support. 
 
-1. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjE2NTI4ODksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTM4MDQ2ODMyLDczMDk5ODExNl19
 -->
