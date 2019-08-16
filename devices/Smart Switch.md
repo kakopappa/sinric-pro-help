@@ -52,7 +52,8 @@ Update the credentails in [credentials.py](https://github.com/sinricpro/Python-E
 
 ```python
 def power_state(deviceId, state):
-print(deviceId, state)
+if deviceId == "5bo**********":
+	
 return True, state
 ```
 Complete Python example is available [here](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py) 
@@ -68,6 +69,7 @@ Complete Python example is available [here](https://github.com/sinricpro/Python-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NjcxNDYxLDE0MDI2NTk5MzMsLTQwMz
-cxNTMwMSwyMzAzODc5MjAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTk0OTU5MjkzOSwxODY2NzE0NjEsMTQwMj
+Y1OTkzMywtNDAzNzE1MzAxLDIzMDM4NzkyMCw3MzA5OTgxMTZd
+fQ==
 -->
