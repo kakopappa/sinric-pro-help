@@ -21,7 +21,8 @@ Now let's complete the setup process.
 To do that, you must eneter the 
 - WiFi credentials
 - API key
-- Switch ID (Switch Id can be copied from Dashboard -> Devices) and then handle the setPowerState action in your IOT module and
+- Switch ID (Dashboard -> Devices -> )
+- Handle the setPowerState action in your IOT module and
   
 
 #### If you are using the Sinric Pro C++ SDK: 
@@ -71,5 +72,5 @@ Supported Google Home Traits
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyNjI0OTEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTU4NzQ5MTg2Nyw3MzA5OTgxMTZdfQ==
 -->
