@@ -53,7 +53,7 @@ Notes:
 Upon receiving this response in the server, the server will update the interested parties about the status of the **request** .
 
 ## Event
-Let's imagine you want to turn on the device by pushing a button or change the brightness level using a nob. Now you are interacting with the device physically and making changes to the device manually. So you should raise an **event** to let the server know about this change. 
+Let's imagine you want to turn on the device by pushing a button or change the brightness level using a nob. Now you are interacting with the device physically and making changes. To notify the server about the changes you make, you can send an **event**  message to the server
 ``` 
 {
  "payloadVersion": 1,
@@ -126,5 +126,5 @@ B -- 2.turn on tv --> D[Website/Alexa/GH/App]
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzkwMTE0OV19
+eyJoaXN0b3J5IjpbLTcxNTIyNDIyNV19
 -->
