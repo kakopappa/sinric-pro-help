@@ -71,8 +71,7 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 }
 ```
 
-
-## Complete actions and events list
+## Complete requests / responses and events
 
 |                |Action |Event| 
 |----------------|------|---------|------|
@@ -96,5 +95,5 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0OTIzMDg0XX0=
+eyJoaXN0b3J5IjpbLTM2MjIyODcxNF19
 -->
