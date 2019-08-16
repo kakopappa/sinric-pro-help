@@ -4,9 +4,9 @@
 The following shows an example of how to use a smart switch device.
 
 1. Login to  [Sinric](https://gohugo.io/getting-started/installing/)  
-2. Go to devices tab
+2. Click on Devices tab
 3. Click Add Device
-4. Enter device name, description and select the device type as Switch
+4. Enter device name, description and select the device type as Smart Switch
 5. Select the group which switch belongs to
 6. Click Save
 
@@ -14,9 +14,11 @@ That's it.
 
 If you have already linked the Amazon Alexa skill, the app will show a popup like this:
 
-When you want to turn on, off a switch using the Alexa, Google Home or the App / Web
+When you want to turn on, off a switch using the Alexa, Google Home, Sinric app or web, there are two commands you should support. 
+
+1. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTkxNDEyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTQ4MDMwNjQ2NCw3MzA5OTgxMTZdfQ==
 -->
