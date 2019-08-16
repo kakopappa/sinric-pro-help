@@ -64,7 +64,7 @@ Complete Python example is available here:
 [https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py) 
 
 #### Supported Sinrc actions
-- 
+- [setPowerState](https://github.com/sinricpro/sample_messages/blob/master/01_PowerState/01_setPowerState/01_Request.json)
 
 #### Supported Alexa capabilities
 -  [Alexa.PowerController](https://developer.amazon.com/docs/device-apis/alexa-powercontroller.html)
@@ -74,5 +74,5 @@ Complete Python example is available here:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxOTUzMjUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjMwMzg3OTIwLDczMDk5ODExNl19
 -->
