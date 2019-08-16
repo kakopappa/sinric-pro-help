@@ -17,6 +17,7 @@ If you have already linked the Amazon Alexa skill, the app will show a popup lik
 
 Now, eveytime when you turn on or off the smart switch the server will send the setPowerState action to your IOT module. 
 
+If you are using the C++ SDK: 
 ```c++
 bool onPowerState(const char* deviceId, PowerState_t& state) {
  Serial.printf("Device %s turned ", deviceId);
@@ -30,6 +31,7 @@ bool onPowerState(const char* deviceId, PowerState_t& state) {
 Complete Arduino/ESP8266/ESP32 example:
 [https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch](https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch/src/Switch.cpp)
 
+If you are using the C++ SDK: 
 ```python
 def power_state(did, state):
 print(did, state['state'])
@@ -46,5 +48,5 @@ Supported Google Home Traits
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzEzNzUwMyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE3Nzc5OTM1MDMsNzMwOTk4MTE2XX0=
 -->
