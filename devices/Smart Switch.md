@@ -37,8 +37,12 @@ return True, state['state']
 Python example:
 [https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py) 
 
+Supported Alexa Controllers
+
+Supported Google Home Traits
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTAzMzExMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTEwNTIwNzIzLDczMDk5ODExNl19
 -->
