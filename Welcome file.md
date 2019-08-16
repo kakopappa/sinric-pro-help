@@ -6,13 +6,13 @@ Welcome to **Sinric Pro** device documentation.
  - Complete API documentation is available [here](https://apidocs.sinric.pro/)
 
 **SDKs**
- - ESP8266/ESP32 SDK
- - Python SDK
- - NodeJS SDK
+ - [x] ESP8266/ESP32 SDK
+ - [x] Python SDK
+ - [ ] NodeJS SDK
 
 **Commnuication Protocol**
  - Introduction
- - Supported commands 
+ - All supported commands 
  - Sample messages
 
 **Supported Device Types**
@@ -44,7 +44,7 @@ Following device types are supported at the moment
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTA1NzI4MywtMTgzODc5MDQxNCwtMT
-QyNTkwMTM4OSw4NTQ5MzU5MDQsMTU3NTMyMjU1NSwtMTU3MDAw
-NDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
+eyJoaXN0b3J5IjpbLTE4OTg2MDY3MzAsLTE4Mzg3OTA0MTQsLT
+E0MjU5MDEzODksODU0OTM1OTA0LDE1NzUzMjI1NTUsLTE1NzAw
+MDQyMzIsMjA2NTU4NzkyOSwxMjUwODUxMzA1XX0=
 -->
