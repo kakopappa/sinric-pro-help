@@ -1,7 +1,7 @@
 
 # Smart Switch
 
-The following shows an example of how to use a smart switch device.
+How to create a Smart Switch device in Sinric Pro 
 
 1. Login to  [Sinric](https://sinric.pro/)  
 2. Click on **Devices**
@@ -26,10 +26,17 @@ bool onPowerState(const char* deviceId, PowerState_t& state) {
  return true;
 }
 ```
+[https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch/src/Switch.cpp](https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch/src/Switch.cpp)
+
+```python
+def power_state(did, state):
+print(did, state['state'])
+return True, state['state']
+```
 [https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py) 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjA1MjAxMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTU3NjY2MzA1MSw3MzA5OTgxMTZdfQ==
 -->
