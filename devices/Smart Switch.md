@@ -51,9 +51,8 @@ Complete Arduino/ESP8266/ESP32 example is available [here](https://github.com/si
 Update the credentails in [credentials.py](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/credentials.py), then update the code
 
 ```python
-def power_state(deviceId, state):
-if deviceId == "5bo**********":
-	
+def power_state(did, state):
+print(did, state)
 return True, state
 ```
 Complete Python example is available [here](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py) 
@@ -69,7 +68,7 @@ Complete Python example is available [here](https://github.com/sinricpro/Python-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0OTU5MjkzOSwxODY2NzE0NjEsMTQwMj
+eyJoaXN0b3J5IjpbMTQwMjY1OTkzMywxODY2NzE0NjEsMTQwMj
 Y1OTkzMywtNDAzNzE1MzAxLDIzMDM4NzkyMCw3MzA5OTgxMTZd
 fQ==
 -->
