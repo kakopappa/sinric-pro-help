@@ -19,7 +19,7 @@ Cool!
 Now to complete the process, you just have to handle the setPowerState action to your IOT module and enter the WiFi, API key and Switch ID. 
   
 
-If you are using the C++ SDK: 
+#### If you are using the C++ SDK: 
 ```c++
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
@@ -44,7 +44,11 @@ bool onPowerState(const char* deviceId, PowerState_t& state) {
 Complete Arduino/ESP8266/ESP32 example:
 [https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch](https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch/src/Switch.cpp)
 
-If you are using the Python SDK: 
+#### If you are using the Python SDK: 
+Update the credentails in 
+[https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/credentials.py](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/credentials.py)
+
+then,
 ```python
 def power_state(did, state):
 print(did, state['state'])
@@ -61,5 +65,5 @@ Supported Google Home Traits
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODg5MDY1MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTU4Nzc3MzcwMyw3MzA5OTgxMTZdfQ==
 -->
