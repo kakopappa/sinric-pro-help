@@ -10,7 +10,7 @@ Welcome to **Sinric Pro** device documentation.
  - Python SDK
  - NodeJS SDK
 
-**Message Protocol**
+**Commnuication Protocol**
  - Introduction 
  - Sample messages
 
@@ -43,7 +43,7 @@ Following device types are supported at the moment
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjU5MDEzODksODU0OTM1OTA0LDE1Nz
-UzMjI1NTUsLTE1NzAwMDQyMzIsMjA2NTU4NzkyOSwxMjUwODUx
-MzA1XX0=
+eyJoaXN0b3J5IjpbLTE4Mzg3OTA0MTQsLTE0MjU5MDEzODksOD
+U0OTM1OTA0LDE1NzUzMjI1NTUsLTE1NzAwMDQyMzIsMjA2NTU4
+NzkyOSwxMjUwODUxMzA1XX0=
 -->
