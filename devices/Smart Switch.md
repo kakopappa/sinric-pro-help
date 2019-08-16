@@ -16,11 +16,20 @@ If you have already linked the Amazon Alexa skill, the app will show a popup lik
 
 Eveytime you turn on or off the device, the server will send  setPowerState action to your IOT module. If you are using the SDK
 
-
- 
+```c++
+bool onPowerState(const char* deviceId, PowerState_t& state) {
+ Serial.printf("Device %s turned ", deviceId);
+ switch (state) {
+ case power_OFF : Serial.printf("off\r\n"); break;
+ case power_ON : Serial.printf("on\r\n"); break;
+}
+ return true;
+}
+```
+[https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py) 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjA1Mzg4Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTg3MjA1MjAxMSw3MzA5OTgxMTZdfQ==
 -->
