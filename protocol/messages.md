@@ -7,7 +7,7 @@ There are 3 types of messages in Sinric Pro
  3. Event
 
 ## Request
-An act of doing something in Sinric IOT platform will generate a **request** type message. Eg: Alexa, turn on [device name]. will generate a request message like this 
+An act of doing something in Sinric IOT platform will generate a **request** type message in the system. Eg: Alexa, turn on [device name] will generate a request message like below  
 ```
 {
  "payloadVersion": 1,
@@ -48,9 +48,9 @@ An act of doing something in Sinric IOT platform will generate a **request** typ
 Notes:
 * "messageId" field must be the message id in the **request**
 * "createdAt" timestamp is Unix time in seconds
-* If you are using the SDK, the response will be handled by the SDK internally
+* If you are using the SDK, the responses will be handled by the SDK internally
 
-Upon receiving this response in the server, the server will update the interested parties about the status of the **request** they made.
+Upon receiving this response in the server, the server will update the interested parties about the status of the **request** .
 
 ## Event
 Let's imagine you want to turn on the device by pushing a button. in that case, you are interacting with a device physically or making a change to the device manually. So you should raise an **event** to let the server know about this change. 
@@ -126,5 +126,5 @@ B -- 2.turn on tv --> D[Website/Alexa/GH/App]
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTY4NzY5MF19
+eyJoaXN0b3J5IjpbLTEwMTUxNTg3OF19
 -->
