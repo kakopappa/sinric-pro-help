@@ -44,7 +44,9 @@ An act of doing something in Sinric IOT platform will generate a **request** typ
 [https://github.com/sinricpro/sample_messages/blob/master/01_PowerState/01_setPowerState/02_Response.json](https://github.com/sinricpro/sample_messages/blob/master/01_PowerState/01_setPowerState/02_Response.json)
 
 Notes:
-* Message ID must be the message id in the rIf you are using the SDK this is done for you internally!
+* "messageId" field must be the message id in the **request**
+* "createdAt" timestamp is Unix time in seconds
+* If you are using the SDK this is done for you internally
 
 Upon receiving this response in the server, the server will update the interested parties about the status of the **request** they made.
 
@@ -121,5 +123,5 @@ B -- 2.turn on tv --> D[Website/Alexa/GH/App]
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzMDg4MTgyXX0=
+eyJoaXN0b3J5IjpbMTA1MDQyOTU0OF19
 -->
