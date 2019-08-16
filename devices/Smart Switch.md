@@ -16,10 +16,10 @@ If you have already linked the Amazon Alexa skill the app will show a popup like
 
 Cool!
 
-Now let's complete the setup process. To do that, you must enter 
+Now let's complete the setup process. To do that, you must update the sketch with 
 - WiFi credentials
-- API key (Dashboard -> Credentials)
-- Switch ID (Dashboard -> Devices)
+- API key (Copy from Dashboard -> Credentials)
+- Switch ID (Copy from Dashboard -> Devices)
 
 and handle the setPowerState action in your IOT module 
 
@@ -52,7 +52,7 @@ Complete Arduino/ESP8266/ESP32 example is available here:
 Update the credentails in 
 [https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/credentials.py](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/credentials.py)
 
-then update the code,
+then update the code
 
 ```python
 def power_state(did, state):
@@ -73,6 +73,6 @@ Complete Python example is available here:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTA5OTU5NywyMzAzODc5MjAsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE3MDk1MTcxMzEsMjMwMzg3OTIwLDczMD
+k5ODExNl19
 -->
