@@ -1,7 +1,7 @@
 
 # Smart Switch
 
-How to create a Smart Switch device in Sinric Pro 
+How to create a Smart Switch 
 
 1. Login to  [Sinric](https://sinric.pro/)  
 2. Click on **Devices**
@@ -38,13 +38,12 @@ Python example:
 [https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py) 
 
 Supported Alexa capabilities
--  Alexa.PowerController
+-  [Alexa.PowerController](https://developer.amazon.com/docs/device-apis/alexa-powercontroller.html)
 
 Supported Google Home Traits
--  Alexa.PowerController
-"action.devices.traits.OnOff"
+-  action.devices.traits.OnOff
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI4ODM1MjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTY4NTYzOTY1NSw3MzA5OTgxMTZdfQ==
 -->
