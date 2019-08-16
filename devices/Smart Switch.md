@@ -63,13 +63,16 @@ return True, state['state']
 Complete Python example is available here:
 [https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py) 
 
-Supported Alexa capabilities
+#### Supported Sinrc actions
+- 
+
+#### Supported Alexa capabilities
 -  [Alexa.PowerController](https://developer.amazon.com/docs/device-apis/alexa-powercontroller.html)
 
-Supported Google Home Traits
+####  Supported Google Home Traits
 -  action.devices.traits.OnOff
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQ2MDk5MjYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjYxOTUzMjUsNzMwOTk4MTE2XX0=
 -->
