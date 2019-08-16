@@ -11,7 +11,8 @@ Welcome to **Sinric Pro** device documentation.
  - NodeJS SDK
 
 **Commnuication Protocol**
- - Introduction 
+ - Introduction
+ - Supported commands 
  - Sample messages
 
 **Supported Device Types**
@@ -43,7 +44,7 @@ Following device types are supported at the moment
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzg3OTA0MTQsLTE0MjU5MDEzODksOD
-U0OTM1OTA0LDE1NzUzMjI1NTUsLTE1NzAwMDQyMzIsMjA2NTU4
-NzkyOSwxMjUwODUxMzA1XX0=
+eyJoaXN0b3J5IjpbLTkyOTA1NzI4MywtMTgzODc5MDQxNCwtMT
+QyNTkwMTM4OSw4NTQ5MzU5MDQsMTU3NTMyMjU1NSwtMTU3MDAw
+NDIzMiwyMDY1NTg3OTI5LDEyNTA4NTEzMDVdfQ==
 -->
