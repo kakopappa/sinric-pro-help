@@ -16,8 +16,9 @@ If you have already linked the Amazon Alexa skill, the app will show a popup lik
 
 Cool!
 
-Now to complete the process, you just have to handle the setPowerState action to your IOT module and enter the WiFi, API key and Switch ID. 
-  
+Now to complete the process, 
+1. enter the WiFi, API key and Switch ID. 
+  2
 
 #### If you are using the Sinric Pro C++ SDK: 
 ```c++
@@ -41,7 +42,7 @@ bool onPowerState(const char* deviceId, PowerState_t& state) {
 }
 .....
 ```
-Complete Arduino/ESP8266/ESP32 example:
+Complete Arduino/ESP8266/ESP32 example is available here:
 [https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch](https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch/src/Switch.cpp)
 
 #### If you are using the Sinric Pro Python SDK: 
@@ -55,7 +56,7 @@ def power_state(did, state):
 print(did, state['state'])
 return True, state['state']
 ```
-Python example:
+Complete Python example is available here:
 [https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py](https://github.com/sinricpro/Python-Examples/blob/master/pro_switch_example/app.py) 
 
 Supported Alexa capabilities
@@ -66,5 +67,5 @@ Supported Google Home Traits
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1OTk5NzE0LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTUwODQ4Mzk1Miw3MzA5OTgxMTZdfQ==
 -->
