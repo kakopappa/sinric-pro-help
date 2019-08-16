@@ -14,7 +14,7 @@ That's it.
 
 If you have already linked the Amazon Alexa skill, the app will show a popup like this:
 
-Eveytime you turn on or off the device, the server will send  setPowerState action to your IOT module. If you are using the SDK
+Now, eveytime when you turn on or off the device, the server will send the setPowerState action to your IOT module. If you are using the SDK
 
 ```c++
 bool onPowerState(const char* deviceId, PowerState_t& state) {
@@ -26,7 +26,8 @@ bool onPowerState(const char* deviceId, PowerState_t& state) {
  return true;
 }
 ```
-[https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch/src/Switch.cpp](https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch/src/Switch.cpp)
+Complete ESP8266 Example:
+[https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch](https://github.com/sinricpro/SinricPro/blob/master/examples/Request/01_Switch/src/Switch.cpp)
 
 ```python
 def power_state(did, state):
@@ -38,5 +39,5 @@ return True, state['state']
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NjY2MzA1MSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTY5MjExMjUwNCw3MzA5OTgxMTZdfQ==
 -->
