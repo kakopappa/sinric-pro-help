@@ -12,15 +12,16 @@ How to create a Smart Switch in Sinric Pro
 
 That's it. 
 
-If you have already linked the Amazon Alexa skill, the app will show a popup like this on your phone:
+If you have already linked the Amazon Alexa skill the app will show a popup like this on your mobile phone:
 
 Cool!
 
-Now to complete the process, update the sketch with 
+Now let's complete the setup process. 
 
-1. WiFi credentials
-2. API key
-3. Switch ID (Switch Id can be copied from Dashboard -> Devices) and then handle the setPowerState action in your IOT module and
+To do that, you must eneter the 
+- WiFi credentials
+- API key
+- Switch ID (Switch Id can be copied from Dashboard -> Devices) and then handle the setPowerState action in your IOT module and
   
 
 #### If you are using the Sinric Pro C++ SDK: 
@@ -70,5 +71,5 @@ Supported Google Home Traits
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNjA5MjM1OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODQyNjI0OTEsNzMwOTk4MTE2XX0=
 -->
