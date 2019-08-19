@@ -20,7 +20,7 @@ Each connection to the WebSocket API must be authenticated with an  [API key](/a
 
 ### Messaging
 
-There are 3 types of messages flowing through Sinric IOT Platform. They are
+There are 3 types of messages in Sinric IOT Platform. They are
 
  1. Request
  2. Respond
@@ -93,6 +93,6 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQyMDI1NDAsLTIwMjA2NjA5NjgsLT
+eyJoaXN0b3J5IjpbLTEzMDk3NzUxMjYsLTIwMjA2NjA5NjgsLT
 Q2MjUzMjc1MiwtNjEyOTg2NDk5XX0=
 -->
