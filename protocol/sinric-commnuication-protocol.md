@@ -46,7 +46,7 @@ An act of doing something in Sinric IOT platform will generate a **request** typ
 [https://github.com/sinricpro/sample_messages/blob/master/01_PowerState/01_setPowerState/02_Response.json](https://github.com/sinricpro/sample_messages/blob/master/01_PowerState/01_setPowerState/02_Response.json)
 
 Notes:
-* "messageId" field must be the message id in the **request**
+* "messageId" here must be the messageId in the **request**
 * "createdAt" timestamp is Unix time in seconds
 * If you are using the SDK, the responses will be handled by the SDK internally
 
@@ -89,11 +89,6 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Speaker**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, setBands, adjustBands, resetBands, setMode|setPowerState, setVolume, setMute, mediaControl, setBands, resetBands, setMode|
 |**Smart Doorlock**|setLockState|setLockState| 
 
- 
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjIyODcxNF19
+eyJoaXN0b3J5IjpbNjI2NjY5MzgwXX0=
 -->
