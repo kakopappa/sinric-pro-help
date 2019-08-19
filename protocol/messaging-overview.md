@@ -26,7 +26,7 @@ A[IOT Module] -- Websocket protocol --> B(Sinric)
 
 ### Authentication
 
-Each connection to the WebSocket API must be authenticated with an  [API key](https://cryptowat.ch/account/api-access). After establishing a connection, the client sends an  [APIAuthenticationMessage](https://github.com/cryptowatch/proto/blob/6779a2064830c971a60d63f28bd610d3891e57d1/client/client.proto#L59-L76)  containing their public key, a nonce, and a token which is an  `HMAC-SHA-512`  created with the corresponding secret key. An example implementation of generating the token in Go can be found  [here](https://github.com/cryptowatch/ws-client-go/blob/a82eb7b6b0f5d00f028b1d33aac593d289a382f7/stream.go#L801-L807).
+Each connection to the WebSocket API must be authenticated with an  [API key](/api-access). After establishing a connection, the client sends an  [APIAuthenticationMessage](https://github.com/cryptowatch/proto/blob/6779a2064830c971a60d63f28bd610d3891e57d1/client/client.proto#L59-L76)  containing their public key, a nonce, and a token which is an  `HMAC-SHA-512`  created with the corresponding secret key. An example implementation of generating the token in Go can be found  [here](https://github.com/cryptowatch/ws-client-go/blob/a82eb7b6b0f5d00f028b1d33aac593d289a382f7/stream.go#L801-L807).
 
 There are 3 types of messages in Sinric Pro
 
@@ -118,5 +118,5 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTYwMzg3OCwtNjEyOTg2NDk5XX0=
+eyJoaXN0b3J5IjpbLTY2MTU1NjM4NywtNjEyOTg2NDk5XX0=
 -->
