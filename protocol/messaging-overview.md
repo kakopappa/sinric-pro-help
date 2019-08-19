@@ -7,8 +7,7 @@ The following documentation covers the Sinric WebSocket messaging API.
 
 We recommend using one of the SDKs we have built since they properly handle authentication, connection, reconnection and many more feature for messaging layer. We have libraries written for `Arduino`, `ESP8266`, `ESP32` and `RaspberryPI`:
 
--   [ESP SDK]([https://github.com/sinricpro/SinricPro]([[https://github.com/sinricpro/SinricPro/tree/master/examples](https://github.com/sinricpro/SinricPro/tree/master/examples)](https://github.com/sinricpro/SinricPro)))  ([examples](https://github.com/cryptowatch/ws-client-go/tree/master/examples))
--   [Node.js SDK](https://github.com/cryptowatch/cw-sdk-node)  ([examples](https://github.com/cryptowatch/cw-sdk-node/tree/master/examples))
+-   [Python SDK]([https://github.com/sinricpro/Python-SDK](https://github.com/sinricpro/Python-SDK))  ([examples](https://github.com/cryptowatch/cw-sdk-node/tree/master/examples))
 
 There are 3 types of messages in Sinric Pro
 
@@ -100,5 +99,5 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjk4NjQ5OV19
+eyJoaXN0b3J5IjpbLTEwOTg4MTc4NzgsLTYxMjk4NjQ5OV19
 -->
