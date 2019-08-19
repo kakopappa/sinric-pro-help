@@ -3,7 +3,7 @@
 
 Overview
 
-The following documentation covers the Sinric WebSocket API for listening to commands. 
+The following documentation covers the Sinric WebSocket messaging API. 
 
 We recommend using one of the SDKs we have built since they properly handle authentication, connection, reconnection and provide useful decoding from our messaging layer. We have libraries written for `Golang` and `Node.js`:
 
@@ -97,5 +97,5 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODY0Mzk3NjZdfQ==
+eyJoaXN0b3J5IjpbLTk3MTU1MjE2OV19
 -->
