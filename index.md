@@ -26,12 +26,15 @@ Welcome to **Sinric Pro** device documentation.
 
 
 **Tutorials**
+ > Before starting make sure to create an account. duh!
+ 	
  - How to hack Mijia (Xiaomi) temperature  sensor and connect it to Sinric 
  - How to make a doorbell
- 	> Before starting make sure to create an account. duh!
+
 
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4ODM4NzgwLC02NjQ4Mzc0MzFdfQ==
+eyJoaXN0b3J5IjpbNTA4ODUzOTgwLDY4ODgzODc4MCwtNjY0OD
+M3NDMxXX0=
 -->
