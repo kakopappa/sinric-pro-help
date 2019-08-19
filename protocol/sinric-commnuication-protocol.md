@@ -1,5 +1,6 @@
 
 # Commnuication Protocol
+
 There are 3 types of messages in Sinric Pro
 
  1. Request
@@ -90,5 +91,5 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI2NjY5MzgwXX0=
+eyJoaXN0b3J5IjpbMTUzNzUzMzYxOF19
 -->
