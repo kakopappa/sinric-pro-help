@@ -3,27 +3,17 @@
 
 **Overview**
 
-The following documentation covers the Sinric WebSocket messaging API protocol. 
+The documentation covers the Sinric WebSocket messaging protocol. All messages sent over the WebSocket protocol is in JSON format. Sample message definitions are available [here](https://github.com/sinricpro/sample_messages):
 
 We recommend using one of the SDKs we have built since they properly handle authentication, connection, reconnection and many more feature for messaging layer. We have libraries written for `Arduino`, `ESP8266`, `ESP32` and `RaspberryPI`:
 
 -   [ESP8266/ESP32 SDK]([[https://github.com/sinricpro/SinricPro](https://github.com/sinricpro/SinricPro)]([https://github.com/sinricpro/SinricPro/tree/master/examples](https://github.com/sinricpro/SinricPro/tree/master/examples)))  ([examples]([https://github.com/sinricpro/Python-Examples](https://github.com/sinricpro/Python-Examples)))
 -   [Python SDK]([https://github.com/sinricpro/Python-SDK](https://github.com/sinricpro/Python-SDK))  ([examples]([https://github.com/sinricpro/Python-Examples](https://github.com/sinricpro/Python-Examples)))
 
-**Messaging**
-
-All messages sent over the WebSocket protocol is in JSON format. Sample message definitions are available [here](https://github.com/sinricpro/sample_messages):
-
 ### Connecting
-
 Connect to the Websocket API at the following url.
 `ws://ws.sinric.pro`
 
-```mermaid
-graph LR
-A[IOT Module] -- Websocket --> B(Sinric)
-B(Sinric) --> A
-```
 
 ### Authentication
 Each connection to the WebSocket API must be authenticated with an  [API key](/api-access)
@@ -119,5 +109,6 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MjUzMjc1MiwtNjEyOTg2NDk5XX0=
+eyJoaXN0b3J5IjpbMTQ4MTA4NTgzMywtNDYyNTMyNzUyLC02MT
+I5ODY0OTldfQ==
 -->
