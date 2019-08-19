@@ -19,6 +19,8 @@ Connect to the Websocket API at the following url.
 Each connection to the WebSocket API must be authenticated with an  [API key](/api-access) HTTP Header
 
 ### Messaging
+The Messaging API allows for data to be passed between your bot server and the LINE Platform. Requests are sent over HTTPS in JSON format.
+
 There are 3 types of messages in Sinric Pro
 
  1. Request
@@ -109,6 +111,6 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjkyNjI3OTMsLTQ2MjUzMjc1MiwtNj
-EyOTg2NDk5XX0=
+eyJoaXN0b3J5IjpbMTc4NDAxNjY1NCwtNDYyNTMyNzUyLC02MT
+I5ODY0OTldfQ==
 -->
