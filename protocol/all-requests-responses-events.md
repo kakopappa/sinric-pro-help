@@ -3,7 +3,7 @@
 
 requests, responses and events grouped by the device type
 
-| Device Type               |Action |Event| 
+| Device type               |Action |Event| 
 |----------------|------|---------|------|
 |**Smart Switch** | setPowerState | setPowerState 
 |**Smart Light Bulb**  |setPowerState, adjustBrightness, setBrightness, setColor, decreaseColorTemperature, increaseColorTemperature, setColorTemperature, setPowerLevel, adjustPowerLevel|setPowerState, setPowerLevel, setColor, setColorTemperature|          
@@ -20,5 +20,5 @@ requests, responses and events grouped by the device type
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjAxMDgyOTFdfQ==
+eyJoaXN0b3J5IjpbLTQzOTI2NDU0N119
 -->
