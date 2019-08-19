@@ -1,6 +1,8 @@
 
 # Smart Switch
 
+Smart Switch is a power plug that combines WI-FI technology. and the system controls the on / off operation with the home lighting system 
+
 How to create a Smart Switch in Sinric Pro
 
 1. Log into your  [Sinric](https://sinric.pro/)  account
@@ -68,6 +70,6 @@ Complete Python example is available [here](https://github.com/sinricpro/Python-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzcxNTMwMSwyMzAzODc5MjAsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbOTYzNzAyNDgwLC00MDM3MTUzMDEsMjMwMz
+g3OTIwLDczMDk5ODExNl19
 -->
