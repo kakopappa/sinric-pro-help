@@ -3,7 +3,7 @@
 
 **Overview**
 
-This documentation covers the Sinric WebSocket messaging protocol. The Websocket messaging API allows for data to be passed between your IOT module and the Sinric IOT Platform. Requests are sent over HTTP/HTTPS in JSON format.. Sample message definitions are available [here](https://github.com/sinricpro/sample_messages):
+The documentation covers the Sinric WebSocket messaging protocol. All messages sent over the WebSocket protocol is in JSON format. Sample message definitions are available [here](https://github.com/sinricpro/sample_messages):
 
 We recommend using one of the SDKs we have built since they properly handle authentication, connection, reconnection and many more feature for messaging layer. We have libraries written for `Arduino`, `ESP8266`, `ESP32` and `RaspberryPI`:
 
@@ -20,6 +20,9 @@ Each connection to the WebSocket API must be authenticated with an  [API key](/a
 
 ### Messaging
 
+1.  The user or 3rd party sends a message to the Sinric IOT Platform.
+2.  The Sinric IOT Platform sends .
+3.  According to the webhook event, the bot server responds to the user through the LINE Platform.
 
 There are 3 types of messages in Sinric Pro
 
@@ -111,6 +114,6 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTU2NjkwOCwtNDYyNTMyNzUyLC02MT
+eyJoaXN0b3J5IjpbLTgxNzMzNzU4OCwtNDYyNTMyNzUyLC02MT
 I5ODY0OTldfQ==
 -->
