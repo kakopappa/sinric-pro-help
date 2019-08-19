@@ -16,9 +16,9 @@ Connect to the Websocket API at the following url.
 
 
 ### Authentication
-Each connection to the WebSocket API must be authenticated with an  [API key](/api-access)
+Each connection to the WebSocket API must be authenticated with an  [API key](/api-access) HTTP Header
 
-
+### Messaging
 There are 3 types of messages in Sinric Pro
 
  1. Request
@@ -109,6 +109,6 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTA4NTgzMywtNDYyNTMyNzUyLC02MT
-I5ODY0OTldfQ==
+eyJoaXN0b3J5IjpbLTEyNjkyNjI3OTMsLTQ2MjUzMjc1MiwtNj
+EyOTg2NDk5XX0=
 -->
