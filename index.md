@@ -23,7 +23,9 @@ Welcome to **Sinric Pro** device documentation.
  **Devices**
  - All supported devices
 
-
+**Pricing**
+ - Free
+ - Pro
 
 **Tutorials**
  > Before starting make sure to create an account. duh!
@@ -35,6 +37,6 @@ Welcome to **Sinric Pro** device documentation.
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4ODUzOTgwLDY4ODgzODc4MCwtNjY0OD
-M3NDMxXX0=
+eyJoaXN0b3J5IjpbLTEwMjk0ODEyMzMsNjg4ODM4NzgwLC02Nj
+Q4Mzc0MzFdfQ==
 -->
