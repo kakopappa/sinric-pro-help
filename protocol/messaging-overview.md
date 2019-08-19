@@ -5,7 +5,7 @@ Overview
 
 The following documentation covers the Sinric WebSocket API for listening to commands. 
 
-We recommend using one of the SDKs since they properly handle authentication, connection logic, and provide many useful abstractions from our messaging layer. We have libraries written for `Golang` and `Node.js`:
+We recommend using one of the SDKs we have built since they properly handle authentication, connection, reconnection and provide useful decoding from our messaging layer. We have libraries written for `Golang` and `Node.js`:
 
 There are 3 types of messages in Sinric Pro
 
@@ -97,5 +97,5 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTc0OTQwXX0=
+eyJoaXN0b3J5IjpbLTE5ODY0Mzk3NjZdfQ==
 -->
