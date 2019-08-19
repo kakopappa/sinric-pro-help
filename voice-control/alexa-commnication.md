@@ -2,8 +2,7 @@
 
 You can find the Alexa Smart Home skill here
 
-Once you complete the linking process. Run the discovery command to discover all the devices connected to
-
+Once you complete the linking process. Run the discovery command to discover all the devices connected to your account.
 
 ### Request
 1.  The Alexa sends a message to the Sinric IOT Platform.
@@ -47,5 +46,5 @@ B -- 2.turn on tv --> D[Alexa]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQxMzUwNDVdfQ==
+eyJoaXN0b3J5IjpbMTIyNzcyMjU1MV19
 -->
