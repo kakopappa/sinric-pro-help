@@ -10,13 +10,14 @@ Welcome to **Sinric Pro** device documentation.
  - [x] Python SDK
  - [ ] NodeJS SDK
 
-**Commnuication Protocol**
+**Messaging**
  - Introduction
- - All supported commands 
+- Requests, responses and events
  - Sample messages
  
- **Supported Devices**
- - Complete list  
+ **Devices**
+ - Supported device list  
+
 
 **Tutorials**
  - How to hack Mijia (Xiaomi) temperature  sensor and connect it to Sinric 
@@ -26,5 +27,5 @@ Welcome to **Sinric Pro** device documentation.
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODI2MTUwMTMsLTY2NDgzNzQzMV19
+eyJoaXN0b3J5IjpbNDAxMjU3MjQxLC02NjQ4Mzc0MzFdfQ==
 -->
