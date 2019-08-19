@@ -1,6 +1,3 @@
-
-
-
 ## How Amazon Alexa works with Sinric Pro
 
 ### Request
@@ -45,6 +42,6 @@ B -- 2.turn on tv --> D[Alexa]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE1NTAzMDcsLTU1MjQ3MjI5OSwxOD
+eyJoaXN0b3J5IjpbLTEyNzA2NTU3MjUsLTU1MjQ3MjI5OSwxOD
 M4NTU4MTkzXX0=
 -->
