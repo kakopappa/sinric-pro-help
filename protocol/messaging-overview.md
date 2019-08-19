@@ -1,5 +1,7 @@
 
-# Messaging overview
+# Messaging 
+
+Overview
 
 Your IOT device can commnuicate with the Sinric Pro server via Websocket Protocol and listen to any request.
 
@@ -93,5 +95,5 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTA0MDgyMV19
+eyJoaXN0b3J5IjpbLTg1MDkxMTYzMV19
 -->
