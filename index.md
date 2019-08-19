@@ -15,10 +15,11 @@ Welcome to **Sinric Pro** device documentation.
  - Introduction
 - Requests, responses and events
  - Sample messages
- - How Amazon Alexa works
+ - Amazon Alexa
  
  **Devices**
- - Supported device list  
+ - All supported devices
+ - 
 
 
 **Tutorials**
@@ -29,5 +30,5 @@ Welcome to **Sinric Pro** device documentation.
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODI3MTY1MDQsLTY2NDgzNzQzMV19
+eyJoaXN0b3J5IjpbMTUxMjUwOTAwMywtNjY0ODM3NDMxXX0=
 -->
