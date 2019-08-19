@@ -3,6 +3,17 @@
 
 ## How Amazon Alexa works with Sinric Pro
 
+1.  The Alexa sends a message to the Sinric IOT Platform.
+2.  The Sinric IOT Platform creates a request message and forward it to your IOT module.
+3. Your IOT module responds back to the Sinric IOT Platform.
+4. The Sinric IOT Platform update the device status according to your response and updates Alexa Se.
+
+Usecase 2: Manual interaction with the device
+1.  The user change the device state physically. (eg: push a button).
+2.  Your IOT module creates an event message and send it to Sinric IOT Platform.
+3.  The Sinric IOT platform update the device status  and update any interested 3-rd party service (eg Alexa)
+
+
 ```mermaid
 sequenceDiagram
 You ->> Alexa: Alexa, turn on [device name]
@@ -33,5 +44,6 @@ B -- 2.turn on tv --> D[Website/Alexa/GH/App]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MjQ3MjI5OSwxODM4NTU4MTkzXX0=
+eyJoaXN0b3J5IjpbLTEzMDE1MzQ3MCwtNTUyNDcyMjk5LDE4Mz
+g1NTgxOTNdfQ==
 -->
