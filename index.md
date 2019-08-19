@@ -15,11 +15,14 @@ Welcome to **Sinric Pro** device documentation.
  - Introduction
 - Requests, responses and events
  - Sample messages
- - Amazon Alexa
  
+ **Voice Control**
+  - Amazon Alexa integration
+  - Google Home integration
+
  **Devices**
  - All supported devices
- - 
+
 
 
 **Tutorials**
@@ -30,5 +33,5 @@ Welcome to **Sinric Pro** device documentation.
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMjUwOTAwMywtNjY0ODM3NDMxXX0=
+eyJoaXN0b3J5IjpbNjg4ODM4NzgwLC02NjQ4Mzc0MzFdfQ==
 -->
