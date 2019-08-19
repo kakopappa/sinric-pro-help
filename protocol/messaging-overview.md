@@ -22,11 +22,16 @@ Each connection to the WebSocket API must be authenticated with an  [API key](/a
 
 Usecase 1: The user or 3rd party service sends a message
 1.  The user or 3rd party sends a message to the Sinric IOT Platform.
-2.  The Sinric IOT Platform creates a request message to your IOT module.
-3. Your IOT module responds back to Sinric IOT Platform 
-4.  According to response or the event, the Sinric IOT server responds to caller.
+2.  The Sinric IOT Platform creates a request message and forward it to your IOT module.
+3. Your IOT module responds back to Sinric IOT Platform.
+4.  According to your response, the Sinric IOT server responds to caller.
 
-Scenario 1:
+Usecase 2: A user change
+1.  The user change the device state physically. (eg: puor 3rd party sends a message to the Sinric IOT Platform.
+2.  The Sinric IOT Platform creates a request message and forward it to your IOT module.
+3. Your IOT module responds back to Sinric IOT Platform.
+4.  According to your response, the Sinric IOT server responds to caller.
+
 
 As you can see there are 3 types of
 
@@ -120,6 +125,6 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjg5NDYwMDEsLTQ2MjUzMjc1MiwtNj
-EyOTg2NDk5XX0=
+eyJoaXN0b3J5IjpbLTc4NjMyMTYwOCwtNDYyNTMyNzUyLC02MT
+I5ODY0OTldfQ==
 -->
