@@ -29,7 +29,7 @@ Usecase 1: The user or 3rd party service sends a message
 Usecase 2: Manual interaction with the device
 1.  The user change the device state physically. (eg: push a button).
 2.  Your IOT module creates an event message and send it to Sinric IOT Platform.
-3.  The Sinric IOT platform updates the status and update any interested 3-rd party service (eg Alexa)
+3.  The Sinric IOT platform update the device status  and update any interested 3-rd party service (eg Alexa)
 
 
 As you can see there are 3 types of messages flowing through Sinric IOT Platform. They are
@@ -101,27 +101,8 @@ Let's imagine you want to turn on the device by pushing a button or change the b
   "type": "PHYSICAL_INTERACTION"
  }
 }
-```
-
-## Complete requests / responses and events
-
-|                |Action |Event| 
-|----------------|------|---------|------|
-|**Smart Switch** | setPowerState | setPowerState 
-|**Smart Light Bulb**  |setPowerState, adjustBrightness, setBrightness, setColor, decreaseColorTemperature, increaseColorTemperature, setColorTemperature, setPowerLevel, adjustPowerLevel|setPowerState, setPowerLevel, setColor, setColorTemperature|          
-|**Smart Switch with Dimmer**|setPowerState, setPowerLevel adjustPowerLevel|setPowerState, setPowerLevel|
-|**Doorbell**| setPowerState|DoorbellPress, setPowerState|
-|**Temperature Sensor** |setPowerState|setPowerState, currentTemperature|
-|**Thermostat**|setPowerState,targetTemperature, setThermostatMode|setPowerState, targetTemperature, setThermostatMode, currentTemperature|
-|**Window AC Unit**|setPowerState, targetTemperature, setThermostatMode, setRangeValue, adjustRangeValue|setPowerState, targetTemperature, setThermostatMode, setRangeValue, currentTemperature|
-|**Fan**|setPowerState, setRangeValue|setPowerState, setRangeValue|
-|**Motion Sensor**|setPowerState|setPowerState, motion|
-|**Contact Sensor**|setPowerState|setPowerState, setContactState|
-|**TV**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, selectInput, changeChannel, skipChannels|setPowerState, setVolume, setMute, mediaControl, selectInput, changeChannel, skipChannels|
-|**Smart Speaker**|setPowerState, setVolume, adjustVolume, setMute, mediaControl, setBands, adjustBands, resetBands, setMode|setPowerState, setVolume, setMute, mediaControl, setBands, resetBands, setMode|
-|**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTIyMzg4NSwtMjAyMDY2MDk2OCwtND
+eyJoaXN0b3J5IjpbMTQzNjA2NzIzMywtMjAyMDY2MDk2OCwtND
 YyNTMyNzUyLC02MTI5ODY0OTldfQ==
 -->
