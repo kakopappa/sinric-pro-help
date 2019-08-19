@@ -10,6 +10,11 @@ We recommend using one of the SDKs we have built since they properly handle auth
 -   [ESP8266/ESP32 SDK]([[https://github.com/sinricpro/SinricPro](https://github.com/sinricpro/SinricPro)]([https://github.com/sinricpro/SinricPro/tree/master/examples](https://github.com/sinricpro/SinricPro/tree/master/examples)))  ([examples]([https://github.com/sinricpro/Python-Examples](https://github.com/sinricpro/Python-Examples)))
 -   [Python SDK]([https://github.com/sinricpro/Python-SDK](https://github.com/sinricpro/Python-SDK))  ([examples]([https://github.com/sinricpro/Python-Examples](https://github.com/sinricpro/Python-Examples)))
 
+**Messaging**
+
+All messages sent over the WebSocket protocol is in JSON f are encoded using Protocol Buffers. Our message definitions are publicly available here:
+
+
 There are 3 types of messages in Sinric Pro
 
  1. Request
@@ -100,5 +105,5 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQ2MzMyNzcsLTYxMjk4NjQ5OV19
+eyJoaXN0b3J5IjpbLTE5MDE2NjA0NTgsLTYxMjk4NjQ5OV19
 -->
