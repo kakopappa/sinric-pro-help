@@ -29,12 +29,10 @@ Usecase 1: The user or 3rd party service sends a message
 Usecase 2: A user change
 1.  The user change the device state physically. (eg: push a button).
 2.  Your IOT module creates an event message and send it to Sinric IOT Platform.
-3.  The Sinric IOT platform updates the status and update any interested par.
+3.  The Sinric IOT platform updates the status and update any interested 3-rd party (eg Alexa)
 
 
-As you can see there are 3 types of
-
-There are 3 types of messages in Sinric Pro
+As you can see there are 3 types of messages flowing through Sinric IOT Platform. They are
 
  1. Request
  2. Respond
@@ -124,6 +122,6 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzcxNzIyMjYsLTQ2MjUzMjc1MiwtNj
+eyJoaXN0b3J5IjpbLTIwMjA2NjA5NjgsLTQ2MjUzMjc1MiwtNj
 EyOTg2NDk5XX0=
 -->
