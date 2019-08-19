@@ -3,7 +3,7 @@
 
 **Overview**
 
-The following documentation covers the Sinric WebSocket messaging API. 
+The following documentation covers the Sinric WebSocket messaging API protocol. 
 
 We recommend using one of the SDKs we have built since they properly handle authentication, connection, reconnection and many more feature for messaging layer. We have libraries written for `Arduino`, `ESP8266`, `ESP32` and `RaspberryPI`:
 
@@ -18,6 +18,12 @@ All messages sent over the WebSocket protocol is in JSON format. Sample message 
 
 Connect to the API at the following url.
 `ws://ws.sinric.pro`
+
+```mermaid
+graph LR
+A[IOT Module] -- W --> B(Sinric)
+B -- 2.turn on tv --> D[Website/Alexa/GH/App]
+```
 
 There are 3 types of messages in Sinric Pro
 
@@ -109,5 +115,5 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2OTMwNDQ2LC02MTI5ODY0OTldfQ==
+eyJoaXN0b3J5IjpbLTE5ODkxMTAwNjMsLTYxMjk4NjQ5OV19
 -->
