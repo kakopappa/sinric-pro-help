@@ -1,7 +1,7 @@
 
 # Messaging 
 
-Overview
+**Overview**
 
 The following documentation covers the Sinric WebSocket messaging API. 
 
@@ -14,7 +14,10 @@ We recommend using one of the SDKs we have built since they properly handle auth
 
 All messages sent over the WebSocket protocol is in JSON format. Sample message definitions are available [here](https://github.com/sinricpro/sample_messages):
 
+### Connecting
 
+Connect to the API at the following url.
+`ws://ws.sinric.pro`
 
 There are 3 types of messages in Sinric Pro
 
@@ -106,5 +109,5 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTU4NzcyMCwtNjEyOTg2NDk5XX0=
+eyJoaXN0b3J5IjpbMjE2OTMwNDQ2LC02MTI5ODY0OTldfQ==
 -->
