@@ -18,10 +18,10 @@ Cool!
 
 Now let's complete the setup process. To do that, you must update the sample sketch with 
 - WiFi credentials
-- API key (Copy from Dashboard -> Credentials)
-- Switch ID (Copy from Dashboard -> Devices)
+- API key (Copy from Sinric -> Dashboard -> Credentials)
+- Switch ID (Copy from Sinric -> Dashboard -> Devices)
 
-and handle the setPowerState action in your IOT module 
+and handle the **setPowerState** action in your IOT module 
 
 #### If you are using the Sinric Pro C++ SDK: 
 ```c++
@@ -38,8 +38,12 @@ and handle the setPowerState action in your IOT module
 bool onPowerState(const char* deviceId, PowerState_t& state) {
  Serial.printf("Device %s turned ", deviceId);
  switch (state) {
- case power_OFF : Serial.printf("off\r\n"); break;
- case power_ON : Serial.printf("on\r\n"); break;
+ case power_OFF : 
+  Serial.printf("off"); 
+  break;
+ case power_ON : 
+  Serial.printf("on"); 
+  break;
 }
  return true;
 }
@@ -65,9 +69,7 @@ Complete Python example is available [here](https://github.com/sinricpro/Python-
 
 ####  Supported Google Home Traits
 -  action.devices.traits.OnOff
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyODE2NDMzLC00MDM3MTUzMDEsMjMwMz
+eyJoaXN0b3J5IjpbOTQ1NDYxNDEzLC00MDM3MTUzMDEsMjMwMz
 g3OTIwLDczMDk5ODExNl19
 -->
