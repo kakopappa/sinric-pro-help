@@ -16,7 +16,7 @@ Welcome to **Sinric Pro** device documentation.
  - Sample messages
  
  **Supported Devices**
- - All 
+ - Complete list  
 
 **Tutorials**
  - How to hack Mijia (Xiaomi) temperature  sensor and connect it to Sinric 
@@ -26,5 +26,5 @@ Welcome to **Sinric Pro** device documentation.
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDkzMDE2MSwtNjY0ODM3NDMxXX0=
+eyJoaXN0b3J5IjpbLTE0ODI2MTUwMTMsLTY2NDgzNzQzMV19
 -->
