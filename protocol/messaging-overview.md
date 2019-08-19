@@ -12,7 +12,8 @@ We recommend using one of the SDKs we have built since they properly handle auth
 
 **Messaging**
 
-All messages sent over the WebSocket protocol is in JSON f are encoded using Protocol Buffers. Our message definitions are publicly available here:
+All messages sent over the WebSocket protocol is in JSON format. Sample message definitions are available [here](https://github.com/sinricpro/sample_messages):
+
 
 
 There are 3 types of messages in Sinric Pro
@@ -105,5 +106,5 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE2NjA0NTgsLTYxMjk4NjQ5OV19
+eyJoaXN0b3J5IjpbLTU5NTU4NzcyMCwtNjEyOTg2NDk5XX0=
 -->
