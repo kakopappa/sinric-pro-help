@@ -32,20 +32,19 @@ B -- 4. Okey -->A
 
 ### Event
 
-Any Manual interaction with the device
+Sinric IOT platform will report any changes to Alexa as well. 
 
 1.  The user change the device state physically. (eg: push a button).
 2.  Your IOT module creates an event message and send it to Sinric IOT Platform.
-3.  The Sinric IOT platform update the device status  and update any interested 3-rd party service (eg Alexa)
-
+3.  The Sinric IOT platform update the device status and update Alexa service
 
 ```mermaid
 graph LR
 A[IOT Module] -- 1. turn on tv --> B(Sinric)
-B -- 2.turn on tv --> D[Website/Alexa/GH/App]
+B -- 2.turn on tv --> D[Alexa]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzkwODY5NTgsLTU1MjQ3MjI5OSwxOD
+eyJoaXN0b3J5IjpbLTE1OTE1NTAzMDcsLTU1MjQ3MjI5OSwxOD
 M4NTU4MTkzXX0=
 -->
