@@ -36,14 +36,12 @@ Following device types are supported at the moment
  
 
 **Tutorials**
- - How to hack Mi
- - 
+ - How to hack Mijia (Xiaomi) temperature  sensor and connect it to Sinric 
  - How to make a doorbell
- 
-	> Before starting make sure to create an account. duh!
+ 	> Before starting make sure to create an account. duh!
 
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ5NjcxODVdfQ==
+eyJoaXN0b3J5IjpbLTY2NDgzNzQzMV19
 -->
