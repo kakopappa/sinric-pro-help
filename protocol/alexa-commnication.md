@@ -1,7 +1,7 @@
 
 
 
-## UML diagram
+## How Amazon Alexa works with Sinric Pro
 
 ```mermaid
 sequenceDiagram
@@ -14,7 +14,7 @@ Sinric->> Alexa : Sucess!
 Alexa->> You : Okey
 ```
 
-How an request / response works:
+How an request / response work:
 
 ```mermaid
 graph LR
@@ -31,7 +31,7 @@ graph LR
 A[IOT Module] -- 1. turn on tv --> B(Sinric)
 B -- 2.turn on tv --> D[Website/Alexa/GH/App]
 ```
-> Written with [StackEdit](https://stackedit.io/).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODU1ODE5M119
+eyJoaXN0b3J5IjpbLTU1MjQ3MjI5OSwxODM4NTU4MTkzXX0=
 -->
