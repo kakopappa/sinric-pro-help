@@ -1,7 +1,7 @@
 
 ## Complete requests / responses and events
 
-requests, responses and events grouped by the device type
+Complete requests, responses and events by the device type
 
 | Device type               |Action |Event| 
 |----------------|------|---------|------|
@@ -20,5 +20,5 @@ requests, responses and events grouped by the device type
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTI2NDU0N119
+eyJoaXN0b3J5IjpbLTE4MzEzNzA4MzBdfQ==
 -->
