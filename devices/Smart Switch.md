@@ -1,9 +1,7 @@
 
 # Smart Switch
 
-Smart Switch is a power plug that combines WI-FI technology. 
-
-How to create a Smart Switch in Sinric Pro
+Smart Switch is a power plug that combines WI-FI technology. To create a Smart Switch in Sinric Pro
 
 1. Log into your  [Sinric](https://sinric.pro/)  account
 2. Click on **Devices**
@@ -18,7 +16,7 @@ If you have already linked the Amazon Alexa skill the app will show a popup like
 
 Cool!
 
-Now let's complete the setup process. To do that, you must update the sketch with 
+Now let's complete the setup process. To do that, you must update the sample sketch with 
 - WiFi credentials
 - API key (Copy from Dashboard -> Credentials)
 - Switch ID (Copy from Dashboard -> Devices)
@@ -70,6 +68,6 @@ Complete Python example is available [here](https://github.com/sinricpro/Python-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjcxNTM4NywtNDAzNzE1MzAxLDIzMD
-M4NzkyMCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNjkyODE2NDMzLC00MDM3MTUzMDEsMjMwMz
+g3OTIwLDczMDk5ODExNl19
 -->
