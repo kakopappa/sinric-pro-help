@@ -21,8 +21,9 @@ Each connection to the WebSocket API must be authenticated with an  [API key](/a
 ### Messaging
 
 1.  The user or 3rd party sends a message to the Sinric IOT Platform.
-2.  The Sinric IOT Platform sends .
-3.  According to the webhook event, the bot server responds to the user through the LINE Platform.
+2.  The Sinric IOT Platform sends a request message to your IOT module.
+3. Your IOT module responds back to Sinric IOT Platform 
+4.  According to response or the event, the Sinric IOT server responds to the user through the LINE Platform.
 
 There are 3 types of messages in Sinric Pro
 
@@ -114,6 +115,6 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 |**Smart Doorlock**|setLockState|setLockState| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzMzNzU4OCwtNDYyNTMyNzUyLC02MT
+eyJoaXN0b3J5IjpbLTgwNjAzMDc3MSwtNDYyNTMyNzUyLC02MT
 I5ODY0OTldfQ==
 -->
