@@ -20,16 +20,8 @@ Each connection to the WebSocket API must be authenticated with an  [API key](/a
 
 ### Messaging
 
-Usecase 1: The user or 3rd party service sends a message
-1.  The user or a 3rd party sends a message to the Sinric IOT Platform.
-2.  The Sinric IOT Platform creates a request message and forward it to your IOT module.
-3. Your IOT module responds back to the Sinric IOT Platform.
-4. The Sinric IOT Platform update the device status according to your response and updates any interested 3-rd party service (eg Alexa).
 
-Usecase 2: Manual interaction with the device
-1.  The user change the device state physically. (eg: push a button).
-2.  Your IOT module creates an event message and send it to Sinric IOT Platform.
-3.  The Sinric IOT platform update the device status  and update any interested 3-rd party service (eg Alexa)
+
 
 
 As you can see there are 3 types of messages flowing through Sinric IOT Platform. They are
@@ -105,6 +97,6 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTU2MDQzNSwtMjAyMDY2MDk2OCwtND
+eyJoaXN0b3J5IjpbMTM1NzcwNDg3NiwtMjAyMDY2MDk2OCwtND
 YyNTMyNzUyLC02MTI5ODY0OTldfQ==
 -->
