@@ -14,11 +14,12 @@ Following device types are supported at the moment
  - [x] [Contact Sensor](devices/Contact%20Sensor.md)
  - [x] [Thermostat](devices/Thermostat.md)
  - [x] [TV](devices/TV.md)
- - [x] [Smart Speaker](devices/Smart%20Light%20Bulb.md)
- - [x] [Smart Lock](devices/Smart%20Light%20Bulb.md)
- - [ ] [Sliding Door](devices/Sliding%20Door.md)
+ - [x] [Speaker](devices/Smart%20Light%20Bulb.md)
+ - [x] [Lock](devices/Smart%20Light%20Bulb.md)
+ - [ ] [Door](devices/Sliding%20Door.md)
+ - [ ] [Blinds](devices/Sliding%20Door.md)
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDUyMjIyM119
+eyJoaXN0b3J5IjpbLTk1MzM5ODA5NV19
 -->
