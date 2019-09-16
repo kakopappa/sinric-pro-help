@@ -3,7 +3,7 @@
 
 **Overview**
 
-The documentation covers the Sinric WebSocket messaging protocol. All messages sent over the WebSocket protocol is in JSON format. Sample message definitions are available [here](https://github.com/sinricpro/sample_messages):
+The documentation covers the SinricPro WebSocket messaging protocol. All messages sent over the WebSocket protocol is in JSON format and they are signed using HMAC key to guarante the authenticity of the request. Sample message definitions are available [here](https://github.com/sinricpro/sample_messages):(https://github.com/sinricpro/sample_messages):
 
 We recommend using one of the SDKs we have built since they properly handle authentication, connection, reconnection and many more feature for messaging layer. We have libraries written for `Arduino`, `ESP8266`, `ESP32` and `RaspberryPI`:
 
@@ -93,5 +93,5 @@ Let's imagine you want to turn on the device by pushing a button or change the b
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDk3NzUxMjZdfQ==
+eyJoaXN0b3J5IjpbLTgxNjI1MTU3MSwtMTMwOTc3NTEyNl19
 -->
